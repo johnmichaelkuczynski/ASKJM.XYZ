@@ -4,15 +4,15 @@
 
 An intelligent philosophical conversation application that uses semantic search over 826 philosophical positions from J.-M. Kuczynski's works and synthesizes thoughtful responses using Claude AI with streaming.
 
-**Status:** ✅ Fully functional MVP deployed on Replit  
-**Database:** v27_COMPLETE - 836 positions (826 unique IDs) from 37 works (includes Socrates execution positions from WORK-038)
+**Status:** ✅ Fully functional MVP  
+**Database:** v27_COMPLETE - 744 active positions (filtered from 836 total, removing 82 with empty text) from 37 works
 
 ## Features
 
 ### Core Functionality
 - ✅ **Semantic Search**: 826 philosophical positions indexed with sentence-transformers
 - ✅ **Streaming AI Responses**: Token-by-token streaming from Claude API (no loading spinner!)
-- ✅ **Multiple AI Providers**: Support for Anthropic Claude, OpenAI, and DeepSeek with model selection
+- ✅ **Multiple AI Providers**: Support for Anthropic Claude, OpenAI, DeepSeek, and Perplexity with model selection
 - ✅ **Large Text Input**: Auto-expanding textarea (150-400px) for questions
 - ✅ **File Upload**: Support for PDF, Word (.doc/.docx), and TXT files with automatic text extraction
 - ✅ **Clean Conversation UI**: Clear distinction between user questions and Kuczynski responses
@@ -41,7 +41,7 @@ An intelligent philosophical conversation application that uses semantic search 
 ## Technical Stack
 
 - **Backend**: Flask 3.1+
-- **AI Providers**: Anthropic Claude, OpenAI, DeepSeek (direct API integration)
+- **AI Providers**: Anthropic Claude, OpenAI, DeepSeek, Perplexity (direct API integration)
 - **ML**: sentence-transformers 5.1+, scikit-learn 1.7+, PyTorch (CPU)
 - **File Processing**: PyPDF2, python-docx
 - **Frontend**: Vanilla JavaScript, SSE for streaming
@@ -51,6 +51,15 @@ An intelligent philosophical conversation application that uses semantic search 
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
 
 ## Recent Changes
+
+**2025-11-16**: Critical semantic search fix and prompt cleanup
+- **CRITICAL BUG FIX**: Fixed index misalignment in semantic search - positions with empty text were filtered during embedding but remained in positions list, causing retrieval to return wrong IDs
+- Regenerated embeddings with proper 1:1 alignment (744 positions = 744 embeddings)
+- Removed "RELEVANCE ASSESSMENT" preamble from AI responses - responses now start directly with content
+- Added Perplexity as 4th AI provider option
+- Added Render.com deployment configuration (render.yaml, runtime.txt)
+- Fixed Flask app to read PORT environment variable for Render deployment
+- Added Gunicorn + gevent to requirements for production deployment
 
 **2025-11-15**: Initial MVP implementation, database expansion, and prompt refinements
 - Set up semantic search and upgraded to 808 philosophical positions
@@ -211,3 +220,4 @@ Used CPU-optimized PyTorch to avoid disk quota issues in Replit environment.
   - `ANTHROPIC_API_KEY` - For Claude models
   - `OPENAI_API_KEY` - For GPT models (optional)
   - `DEEPSEEK_API_KEY` - For DeepSeek models (optional)
+  - `PERPLEXITY_API_KEY` - For Perplexity models (optional)
