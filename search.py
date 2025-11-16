@@ -68,6 +68,13 @@ class SemanticSearch:
                                 })
                                 seen_ids.add(pos_id)
 
+        # Filter out positions with empty text to keep alignment with embeddings
+        original_count = len(self.positions)
+        self.positions = [p for p in self.positions if p['text'].strip()]
+        filtered_count = original_count - len(self.positions)
+        if filtered_count > 0:
+            print(f"Filtered out {filtered_count} positions with empty text")
+        
         print(f"Loaded {len(self.positions)} philosophical positions")
 
         # Initialize OpenAI client
@@ -99,16 +106,10 @@ class SemanticSearch:
 
     def _generate_embeddings(self, texts, batch_size=100):
         """Generate embeddings using OpenAI API in batches"""
-        # Filter out empty strings
-        filtered_texts = [t for t in texts if t.strip()]
-
-        if len(filtered_texts) < len(texts):
-            print(f"Warning: Filtered out {len(texts) - len(filtered_texts)} empty texts")
-
         all_embeddings = []
-        for i in range(0, len(filtered_texts), batch_size):
-            batch = filtered_texts[i:i+batch_size]
-            print(f"Processing batch {i//batch_size + 1}/{(len(filtered_texts)-1)//batch_size + 1}...")
+        for i in range(0, len(texts), batch_size):
+            batch = texts[i:i+batch_size]
+            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}...")
             response = self.client.embeddings.create(
                 model="text-embedding-3-small",
                 input=batch
