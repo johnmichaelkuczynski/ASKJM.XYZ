@@ -56,6 +56,13 @@ This project is an intelligent philosophical conversation application that uses 
 
 ## Recent Changes
 
+**2025-11-17**: College Papers Integration Fix
+- **CRITICAL BUG FIX**: Fixed search.py field mapping issue that prevented College Papers positions from loading
+- Added `text` field check to search.py position loader (line 32) - College Papers use `text` field while legacy positions use `thesis`, `position`, etc.
+- **RESULT**: Active positions increased from 858 to 1,077 (all 607 College Papers positions now successfully integrated)
+- Regenerated embeddings: 11 batches instead of 9, proper 1:1 alignment (1,077 positions = 1,077 embeddings)
+- Semantic search now covers complete College Papers Plus collection across all philosophical domains
+
 **2025-01-16**: Database v30 - College Papers Plus
 - **DATABASE UPDATE v30**: Upgraded to v30_COLLEGE_PAPERS_COMPLETE with 1,558 positions from 40 works (607 more positions than v29)
 - Added WORK-041 "College Papers Plus: Complete Works as of October 2019" with 607 positions from 63 philosophical papers covering:
@@ -69,7 +76,7 @@ This project is an intelligent philosophical conversation application that uses 
   - Philosophy of Religion (arguments for God, moral foundations)
   - Political Philosophy (democracy, justice, rights)
   - Aesthetics (nature of art, aesthetic value)
-- Regenerated embeddings with proper 1:1 alignment
+- Database loaded with 1,558 total positions; 1,077 active after deduplication and empty-text filtering
 
 **2025-01-16**: Database v29 - Blog Essays Set 2
 - **DATABASE UPDATE v29**: Upgraded to v29_BLOG_SET2_COMPLETE with 951 positions from 39 works (57 more positions than v28)
