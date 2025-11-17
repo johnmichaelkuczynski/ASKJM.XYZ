@@ -3,6 +3,9 @@
 ## Overview
 This project is an intelligent philosophical conversation application that uses semantic search over J.-M. Kuczynski's works to synthesize thoughtful, streaming responses via Claude AI. Its core purpose is to provide an AI assistant capable of engaging in philosophical dialogue, accurately reflecting Kuczynski's rigorous arguments and writing style, based on a comprehensive database of his philosophical positions. The project aims to make his extensive body of work more accessible and interactive for users interested in in-depth philosophical inquiry.
 
+**Status:** ✅ Fully functional MVP  
+**Database:** v29_BLOG_SET2_COMPLETE - 951 positions from 39 works (includes blog essays on Zen, AI, liberalism, entropy, EMH, Jungian/Freudian analysis, evolutionary psychology)
+
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
 - **Response Style**: AI responses must faithfully represent Kuczynski's actual arguments, examples, and rigorous writing style, not glib paraphrases. This means quoting or very closely paraphrasing the actual text from positions, using his exact examples and rhetorical questions, preserving his step-by-step argumentative structure, and matching his rigorous, technical, methodical, and detailed tone. The AI should not summarize, simplify, or "make accessible" his work.
@@ -12,7 +15,7 @@ This project is an intelligent philosophical conversation application that uses 
 ## System Architecture
 
 ### Core Functionality
-- **Semantic Search**: Indexes 894 philosophical positions using sentence-transformers (all-MiniLM-L6-v2 model) for efficient retrieval.
+- **Semantic Search**: Indexes 951 philosophical positions using sentence-transformers (all-MiniLM-L6-v2 model) for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers, ensuring a smooth user experience.
 - **Multi-AI Provider Support**: Integrates Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
 - **Content Ingestion**: Supports file uploads (PDF, Word, TXT) with automatic text extraction.
@@ -24,7 +27,7 @@ This project is an intelligent philosophical conversation application that uses 
 ### Technical Implementation
 - **Backend**: Flask 3.1+ handles the main application logic, SSE streaming, and integration with the semantic search module (`search.py`).
 - **Frontend**: A minimal HTML interface (`index.html`) is styled with professional gradients (`style.css`) and powered by vanilla JavaScript (`app.js`) for dynamic interactions and SSE streaming.
-- **Data Management**: Philosophical positions are stored in `data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v28_BLOG_COMPLETE.json` (894 positions). Pre-computed embeddings for these positions are cached in `data/position_embeddings.pkl`. Source texts from Kuczynski's works are stored in the `texts/` directory.
+- **Data Management**: Philosophical positions are stored in `data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json` (951 positions). Pre-computed embeddings for these positions are cached in `data/position_embeddings.pkl`. Source texts from Kuczynski's works are stored in the `texts/` directory.
 - **ML/NLP**: Utilizes `sentence-transformers`, `scikit-learn`, and CPU-optimized PyTorch for embedding generation and semantic similarity calculations.
 - **File Processing**: Employs `PyPDF2` and `python-docx` for extracting text from uploaded documents.
 
@@ -50,3 +53,29 @@ This project is an intelligent philosophical conversation application that uses 
     - Gunicorn (for production deployment)
     - gevent (for production deployment)
 - **Deployment Platform**: Render.com (configured via `render.yaml`, `runtime.txt`)
+
+## Recent Changes
+
+**2025-01-16**: Database v29 - Blog Essays Set 2
+- **DATABASE UPDATE v29**: Upgraded to v29_BLOG_SET2_COMPLETE with 951 positions from 39 works (57 more positions than v28)
+- Added WORK-040 "Blog Essays Collection Set 2" with 57 positions on:
+  - Entropy and counter-entropy in cultural systems
+  - Efficient Market Hypothesis critique
+  - Jungian vs. Freudian psychoanalysis
+  - Evolutionary psychology and mate selection
+  - AI epistemology and embedded intelligence
+- Regenerated embeddings with proper 1:1 alignment (858 active positions after filtering)
+
+**2025-01-16**: Database v28 update + critical fixes
+- **DATABASE UPDATE v28**: Upgraded to v28_BLOG_COMPLETE with 894 positions from 38 works (801 active after filtering). Added WORK-039 "Blog Essays Collection" with 58 positions on:
+  - Zen Buddhism as authoritarianism (critique of Western misreading)
+  - AI and embedded intelligence (the "pianist's hand" analogy)
+  - Liberal empire decay (Glubb's theory amended)
+  - Proceduralism and cultural criticism
+- **CRITICAL BUG FIX**: Fixed index misalignment in semantic search - positions with empty text were filtered during embedding but remained in positions list, causing retrieval to return wrong IDs
+- Regenerated embeddings with proper 1:1 alignment (801 positions = 801 embeddings)
+- Removed "RELEVANCE ASSESSMENT" preamble from AI responses - responses now start directly with content
+- Added Perplexity as 4th AI provider option
+- Added Render.com deployment configuration (render.yaml, runtime.txt)
+- Fixed Flask app to read PORT environment variable for Render deployment
+- Added Gunicorn + gevent to requirements for production deployment
