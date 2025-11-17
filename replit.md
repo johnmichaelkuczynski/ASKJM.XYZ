@@ -18,8 +18,11 @@ This project is an intelligent philosophical conversation application that uses 
 - **Semantic Search**: Indexes 1,558 philosophical positions using sentence-transformers (all-MiniLM-L6-v2 model) for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers, ensuring a smooth user experience.
 - **Multi-AI Provider Support**: Integrates Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
+- **Dual Response Modes**: 
+  - **Basic Mode**: Faithfully quotes or very closely paraphrases retrieved positions, preserving exact arguments and examples
+  - **Enhanced Mode**: Synthesizes and extends ideas using positions as foundation, adding new inferences, structure, and clarification while maintaining Kuczynski's voice and philosophical system
 - **Content Ingestion**: Supports file uploads (PDF, Word, TXT) with automatic text extraction.
-- **User Interface**: Features a clean conversation UI with auto-expanding input, distinct user/AI dialogue, and responsive design.
+- **User Interface**: Features a clean conversation UI with auto-expanding input, distinct user/AI dialogue, responsive design, and mode toggle.
 - **Source Citations**: Automatically includes relevant position IDs (e.g., EP-111, META-033) with each AI response.
 - **Conversation Management**: Allows downloading individual exchanges in Markdown or TXT format.
 - **Optional Login**: Implements a username-only login system for future chat history features.
@@ -32,7 +35,9 @@ This project is an intelligent philosophical conversation application that uses 
 - **File Processing**: Employs `PyPDF2` and `python-docx` for extracting text from uploaded documents.
 
 ### Key Design Decisions
-- **Faithful Representation**: A critical design principle ensures AI responses strictly adhere to Kuczynski's original text, examples, and argumentative style, avoiding summarization or simplification.
+- **Dual Mode Architecture**: 
+  - **Basic Mode** (default): Ensures AI responses strictly adhere to Kuczynski's original text, examples, and argumentative style, avoiding summarization or simplification
+  - **Enhanced Mode**: Uses retrieved positions as jumping-off point for original philosophical intellection that synthesizes, extends, and clarifies ideas while maintaining voice consistency and system coherence
 - **Token-by-Token Streaming**: Provides immediate and real-time display of AI responses for enhanced user experience.
 - **Simplified Data Model**: Focuses on philosophical positions as the primary data points, with potential future integration of full text excerpts.
 - **CPU-Only PyTorch**: Optimizes for Replit environment constraints by using CPU-based PyTorch.
@@ -55,6 +60,15 @@ This project is an intelligent philosophical conversation application that uses 
 - **Deployment Platform**: Render.com (configured via `render.yaml`, `runtime.txt`)
 
 ## Recent Changes
+
+**2025-11-17**: Enhanced Mode Feature
+- **NEW FEATURE**: Added dual response mode toggle with Basic and Enhanced modes
+- **Basic Mode**: Preserves existing behavior - faithfully quotes/closely paraphrases retrieved positions with exact examples, arguments, and tone
+- **Enhanced Mode**: Synthesizes and extends ideas using positions as foundation - adds new inferences, structure, clarification while maintaining Kuczynski's rigorous voice and philosophical consistency
+- **UI Update**: Added mode selector dropdown in frontend with clear labels explaining each mode
+- **Backend**: Created separate prompt generation for each mode (build_prompt for Basic, build_enhanced_prompt for Enhanced)
+- **Prompting Strategy**: Enhanced mode instructs AI to summarize in Kuczynski's voice, extend with new implications, add systematic organization, clarify concepts, and go beyond retrieved material while remaining consistent with core philosophical commitments
+- **Architect Reviewed**: Implementation balances fidelity and extension, handles mode parameter safely with 'basic' default, UI clearly communicates differences
 
 **2025-11-17**: College Papers Integration Fix
 - **CRITICAL BUG FIX**: Fixed search.py field mapping issue that prevented College Papers positions from loading
