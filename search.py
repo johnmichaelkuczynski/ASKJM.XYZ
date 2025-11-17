@@ -8,7 +8,7 @@ import numpy as np
 class SemanticSearch:
     """Semantic search over Kuczynski's philosophical positions"""
 
-    def __init__(self, database_path='data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json', embeddings_path='data/position_embeddings.pkl'):
+    def __init__(self, database_path='data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v30_COLLEGE_PAPERS_COMPLETE.json', embeddings_path='data/position_embeddings.pkl'):
         print(f"Loading database from {database_path}...")
         with open(database_path, 'r', encoding='utf-8') as f:
             db = json.load(f)
@@ -25,7 +25,8 @@ class SemanticSearch:
                                    pos_data.get('description', '') or
                                    pos_data.get('thesis', '') or 
                                    pos_data.get('position', '') or 
-                                   pos_data.get('content', ''))
+                                   pos_data.get('content', '') or
+                                   pos_data.get('text', ''))
                     self.positions.append({
                         'position_id': pos_id,
                         'text': position_text,

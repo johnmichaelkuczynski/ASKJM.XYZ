@@ -4,7 +4,7 @@
 This project is an intelligent philosophical conversation application that uses semantic search over J.-M. Kuczynski's works to synthesize thoughtful, streaming responses via Claude AI. Its core purpose is to provide an AI assistant capable of engaging in philosophical dialogue, accurately reflecting Kuczynski's rigorous arguments and writing style, based on a comprehensive database of his philosophical positions. The project aims to make his extensive body of work more accessible and interactive for users interested in in-depth philosophical inquiry.
 
 **Status:** ✅ Fully functional MVP  
-**Database:** v29_BLOG_SET2_COMPLETE - 951 positions from 39 works (includes blog essays on Zen, AI, liberalism, entropy, EMH, Jungian/Freudian analysis, evolutionary psychology)
+**Database:** v30_COLLEGE_PAPERS_COMPLETE - 1,558 positions from 40 works (includes College Papers Plus with 607 positions across logic, ethics, epistemology, metaphysics, mind, language, science, religion, political philosophy, aesthetics)
 
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
@@ -15,7 +15,7 @@ This project is an intelligent philosophical conversation application that uses 
 ## System Architecture
 
 ### Core Functionality
-- **Semantic Search**: Indexes 951 philosophical positions using sentence-transformers (all-MiniLM-L6-v2 model) for efficient retrieval.
+- **Semantic Search**: Indexes 1,558 philosophical positions using sentence-transformers (all-MiniLM-L6-v2 model) for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers, ensuring a smooth user experience.
 - **Multi-AI Provider Support**: Integrates Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
 - **Content Ingestion**: Supports file uploads (PDF, Word, TXT) with automatic text extraction.
@@ -27,7 +27,7 @@ This project is an intelligent philosophical conversation application that uses 
 ### Technical Implementation
 - **Backend**: Flask 3.1+ handles the main application logic, SSE streaming, and integration with the semantic search module (`search.py`).
 - **Frontend**: A minimal HTML interface (`index.html`) is styled with professional gradients (`style.css`) and powered by vanilla JavaScript (`app.js`) for dynamic interactions and SSE streaming.
-- **Data Management**: Philosophical positions are stored in `data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json` (951 positions). Pre-computed embeddings for these positions are cached in `data/position_embeddings.pkl`. Source texts from Kuczynski's works are stored in the `texts/` directory.
+- **Data Management**: Philosophical positions are stored in `data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v30_COLLEGE_PAPERS_COMPLETE.json` (1,558 positions). Pre-computed embeddings for these positions are cached in `data/position_embeddings.pkl`. Source texts from Kuczynski's works are stored in the `texts/` directory.
 - **ML/NLP**: Utilizes `sentence-transformers`, `scikit-learn`, and CPU-optimized PyTorch for embedding generation and semantic similarity calculations.
 - **File Processing**: Employs `PyPDF2` and `python-docx` for extracting text from uploaded documents.
 
@@ -55,6 +55,21 @@ This project is an intelligent philosophical conversation application that uses 
 - **Deployment Platform**: Render.com (configured via `render.yaml`, `runtime.txt`)
 
 ## Recent Changes
+
+**2025-01-16**: Database v30 - College Papers Plus
+- **DATABASE UPDATE v30**: Upgraded to v30_COLLEGE_PAPERS_COMPLETE with 1,558 positions from 40 works (607 more positions than v29)
+- Added WORK-041 "College Papers Plus: Complete Works as of October 2019" with 607 positions from 63 philosophical papers covering:
+  - Logic (material conditionals, modal logic, relevance logic)
+  - Ethics (utilitarianism critique, Kantian ethics, consequentialism)
+  - Epistemology (sensory perception, Gettier cases, testimony, induction)
+  - Philosophy of Mind (dualism, hard problem of consciousness, qualia)
+  - Philosophy of Language (Wittgenstein, reference/attribution)
+  - Philosophy of Science (hypothetico-deductive method, values in science)
+  - Metaphysics (external world, Cartesian self)
+  - Philosophy of Religion (arguments for God, moral foundations)
+  - Political Philosophy (democracy, justice, rights)
+  - Aesthetics (nature of art, aesthetic value)
+- Regenerated embeddings with proper 1:1 alignment
 
 **2025-01-16**: Database v29 - Blog Essays Set 2
 - **DATABASE UPDATE v29**: Upgraded to v29_BLOG_SET2_COMPLETE with 951 positions from 39 works (57 more positions than v28)
