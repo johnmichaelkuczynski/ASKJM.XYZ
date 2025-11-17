@@ -181,7 +181,14 @@ main {
     color: var(--text-color);
 }
 
-.provider-select, .model-select {
+.mode-toggle-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.provider-select, .model-select, .mode-select {
     padding: 8px 12px;
     border: 2px solid var(--border-color);
     border-radius: 6px;
@@ -199,7 +206,12 @@ main {
     min-width: 200px;
 }
 
-.provider-select:focus, .model-select:focus {
+.mode-select {
+    min-width: 240px;
+    font-weight: 600;
+}
+
+.provider-select:focus, .model-select:focus, .mode-select:focus {
     outline: none;
     border-color: var(--accent-color);
 }

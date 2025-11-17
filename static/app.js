@@ -8,6 +8,7 @@ class KuczynskiChat {
         this.userStatus = document.getElementById('user-status');
         this.providerSelect = document.getElementById('provider-select');
         this.modelSelect = document.getElementById('model-select');
+        this.modeSelect = document.getElementById('mode-select');
         
         this.providers = [];
         this.currentEventSource = null;
@@ -231,6 +232,7 @@ class KuczynskiChat {
         try {
             const provider = this.providerSelect.value || 'anthropic';
             const model = this.modelSelect.value || '';
+            const mode = this.modeSelect.value || 'basic';
             
             const response = await fetch('/api/ask', {
                 method: 'POST',
@@ -238,7 +240,8 @@ class KuczynskiChat {
                 body: JSON.stringify({
                     question,
                     provider,
-                    model
+                    model,
+                    mode
                 })
             });
             
