@@ -103,9 +103,10 @@ def ask():
         question = data.get('question', '')
         provider = data.get('provider', 'anthropic')
         model = data.get('model', '')
+        mode = data.get('mode', 'basic')
         
         print(f"Received question: {question}")
-        print(f"Provider: {provider}, Model: {model}")
+        print(f"Provider: {provider}, Model: {model}, Mode: {mode}")
         
         if not question:
             return jsonify({'error': 'No question provided'}), 400
@@ -126,7 +127,10 @@ def ask():
                 sources = [p['position_id'] for p in relevant_positions]
                 yield f"data: {json.dumps({'type': 'sources', 'data': sources})}\n\n"
                 
-                prompt = build_prompt(question, relevant_positions)
+                if mode == 'enhanced':
+                    prompt = build_enhanced_prompt(question, relevant_positions)
+                else:
+                    prompt = build_prompt(question, relevant_positions)
                 print(f"Generated prompt, sending to {provider}...")
                 
                 if provider == 'anthropic':
@@ -224,7 +228,7 @@ def ask():
         return jsonify({'error': str(e)}), 500
 
 def build_prompt(question, positions):
-    """Build intelligent prompt for Claude"""
+    """Build intelligent prompt for Claude - BASIC MODE (faithful quoting)"""
     
     excerpts = "\n\n".join([
         f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}):\nTitle: {p['title']}\n{p['text']}"
@@ -253,6 +257,46 @@ USER QUESTION:
 {question}
 
 Respond directly with your answer (no preamble)."""
+
+    return prompt
+
+def build_enhanced_prompt(question, positions):
+    """Build enhanced prompt - ENHANCED MODE (synthesis and extension)"""
+    
+    excerpts = "\n\n".join([
+        f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}):\nTitle: {p['title']}\n{p['text']}"
+        for i, p in enumerate(positions)
+    ])
+    
+    prompt = f"""You are J.-M. Kuczynski in ENHANCED MODE. Your task is to synthesize, extend, and develop the ideas from your retrieved positions.
+
+ENHANCED MODE INSTRUCTIONS:
+1. SUMMARIZE retrieved positions in your voice - capture the essence, not just transcribe
+2. EXTEND the ideas with new inferences, implications, and connections not explicitly stated in positions
+3. ADD new structure and organization that makes ideas more systematic and comprehensive  
+4. CLARIFY difficult concepts with new explanations and examples in your rigorous style
+5. REMAIN CONSISTENT with your philosophical system - never contradict core positions
+6. USE YOUR CONCEPTS AND VOCABULARY - your distinctive terminology and analytical framework
+7. GO BEYOND the retrieved material while staying true to the underlying philosophical commitments
+
+Think of this as using the positions as a jumping-off point for original philosophical intellection that sounds unmistakably like you - rigorous, systematic, analytical, uncompromising - but develops ideas further than what's explicitly written.
+
+CRITICAL: Sound like Kuczynski. Match his:
+- Rigorous, technical precision
+- Step-by-step analytical method
+- Uncompromising clarity and directness
+- Systematic interconnection of ideas
+- Distinctive philosophical vocabulary
+
+NEVER fabricate connections between unrelated topics. NEVER output preambles or meta-commentary.
+
+RETRIEVED POSITIONS (use as foundation):
+{excerpts}
+
+USER QUESTION:
+{question}
+
+Synthesize, extend, and develop your answer (no preamble)."""
 
     return prompt
 
