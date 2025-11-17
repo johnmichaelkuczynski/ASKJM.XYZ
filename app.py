@@ -32,7 +32,7 @@ app = Flask(__name__)
 app.secret_key = os.environ.get('SESSION_SECRET', os.urandom(24))
 
 print("Initializing semantic search...")
-searcher = SemanticSearch('data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v27_COMPLETE.json', 'data/position_embeddings.pkl')
+searcher = SemanticSearch('data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v28_BLOG_COMPLETE.json', 'data/position_embeddings.pkl')
 
 anthropic_client = None
 openai_client = None
