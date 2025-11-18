@@ -8,7 +8,7 @@ import numpy as np
 class SemanticSearch:
     """Semantic search over Kuczynski's philosophical positions"""
 
-    def __init__(self, database_path='data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v31_CONSCIOUSNESS_EPISTEMOLOGY.json', embeddings_path='data/position_embeddings.pkl'):
+    def __init__(self, database_path='data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v32_CONCEPTUAL_ATOMISM.json', embeddings_path='data/position_embeddings.pkl'):
         print(f"Loading database from {database_path}...")
         with open(database_path, 'r', encoding='utf-8') as f:
             db = json.load(f)
@@ -84,7 +84,12 @@ class SemanticSearch:
         if embeddings_path and os.path.exists(embeddings_path):
             print(f"Loading pre-computed embeddings from {embeddings_path}...")
             with open(embeddings_path, 'rb') as f:
-                self.embeddings = pickle.load(f)
+                embeddings_data = pickle.load(f)
+                # Handle both tuple format (positions, embeddings) and array-only format
+                if isinstance(embeddings_data, tuple):
+                    _, self.embeddings = embeddings_data
+                else:
+                    self.embeddings = embeddings_data
 
             if self.embeddings.shape[0] != len(self.positions):
                 print(f"⚠️  WARNING: Embeddings ({self.embeddings.shape[0]}) don't match database ({len(self.positions)})")

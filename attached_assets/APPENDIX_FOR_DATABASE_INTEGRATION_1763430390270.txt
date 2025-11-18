@@ -1,0 +1,310 @@
+====================================================================================================
+NEW ENTRIES TO ADD TO EXISTING DATABASE
+====================================================================================================
+Source: WORK-CATM (Conceptual Atomism and the Computational Theory of Mind)
+Date: November 16, 2025
+Instructions: Insert these entries into the corresponding domain sections of the main database
+====================================================================================================
+
+
+====================================================================================================
+ADD TO DOMAIN: EP- (After EP-154)
+====================================================================================================
+
+[EP-155] Cartesian Certainty About Current Thought-Contents
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: We have Cartesian certainty—knowledge that cannot be undermined by skeptical scenarios—about our current thought-contents. It is a pre-theoretic datum that I know with special certainty that I am thinking "I want to drink water" rather than "I want to drink XYZ." No philosophical theory can legitimately overturn this datum.
+
+[EP-156] Content Externalism Makes Self-Knowledge Impossible
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: If content externalism were true, we could not have Cartesian certainty about our thought-contents. There would be epistemically identical worlds where we think different contents (or no content at all), meaning we couldn't know which thoughts we're having. Since we do have such knowledge, externalism must be false.
+
+[EP-157] Epistemic Situations Don't Determine Contents Under Externalism
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: On content externalism, one's epistemic situation does not determine which thoughts (if any) one is having. Twin Earth scenarios show that epistemically identical subjects can have different thought-contents based purely on environmental differences. This conflicts with the datum of self-knowledge.
+
+[EP-158] Slow-Switching Arguments Beg the Question
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: Burge's slow-switching argument—that even if externalism is true, one still knows one's thoughts—begs the question. It only considers worlds where relevant objects exist, not the full set of epistemically identical worlds including those where objects don't exist. It assumes what it needs to prove.
+
+[EP-159] We Can Know Propositions Without Knowing All Constituents
+   Sources: WORK-CATM (Chapter 15)
+   Thesis: One can have knowledge that would be expressed by a sentence without knowing the referents of all terms in that sentence. One can know metalinguistic propositions about truth-conditions without knowing the singular propositions those conditions concern. This shows proposition-knowledge comes in degrees and need not be all-or-nothing.
+
+
+====================================================================================================
+ADD TO DOMAIN: LANG- (After LANG-070)
+====================================================================================================
+
+[LANG-071] Semantic Externalism for Proper Names
+   Sources: WORK-CATM (Chapter 1)
+   Thesis: For proper names, semantic externalism is true: An utterance of "Rocko weighs over five lbs" in world W is true exactly if the object referred to as "Rocko" in W weighs over five lbs. Reference is world-relative, and truth-conditions are determined by which object the name picks out in that world, following direct reference theory.
+
+[LANG-072] Three Ways to Acquire Name Reference
+   Sources: WORK-CATM (Chapter 2)
+   Thesis: There are three distinct ways to add a proper name to one's lexicon: (i) ostensive definition (being shown the referent), (ii) descriptive definition (learning a uniquely individuating description), and (iii) testimonial acquisition (learning the name from someone else's use, which reduces to knowing a description like "the person x such that on occasion t, speaker S referred to x").
+
+[LANG-073] Reference Mediated by Description-Knowledge
+   Sources: WORK-CATM (Chapters 2-5)
+   Thesis: One's ability to refer to an object depends on knowing some uniquely individuating description that the object satisfies. This holds even for names acquired testimonially at many removes from direct acquaintance. Reference is not a primitive causal relation but mediated by descriptive knowledge.
+
+[LANG-074] Kripke Cases Support Descriptivist View
+   Sources: WORK-CATM (Chapter 2)
+   Thesis: Kripke-style cases (like little Timmy learning "Shakespeare" as "author of Romeo and Juliet" when Shakespeare didn't write that play) actually support rather than refute descriptivism. Timmy can still refer to Shakespeare because his real description is "the person to whom, on occasion t, Daddy ascribed writing Romeo and Juliet"—a description Shakespeare satisfies.
+
+[LANG-075] Names Acquired via Testimony Reduce to Type (iii)
+   Sources: WORK-CATM (Chapter 2)
+   Thesis: Most apparent cases of acquiring names via pure description (Type ii) are actually cases of testimonial acquisition (Type iii). When you learn "Socrates wrote the Nichomachean Ethics" from Charlie (who is wrong), your real description is "the person to whom Charlie ascribed writing those works on occasion t."
+
+[LANG-076] Julius Cases Show Limits of Pure Descriptivism
+   Sources: WORK-CATM (Chapter 2)
+   Thesis: In cases where one stipulates "Julius" as "the inventor of the zipper" without knowing who that is, one arguably doesn't know which proposition is encoded in "Julius must be worth a fortune." One has metalinguistic knowledge that simulates understanding without constituting genuine understanding of the proposition expressed.
+
+[LANG-077] Metalinguistic Knowledge Can Simulate Understanding
+   Sources: WORK-CATM (Chapter 2)
+   Thesis: One can have metalinguistic knowledge (e.g., "for some object O, this sentence is true iff O has property P") that simulates real understanding without being genuine understanding. This explains how we can operate with names whose referents we don't know, and why language facilitates information transmission even without complete understanding.
+
+[LANG-078] Gricean Theory of Meaning is False
+   Sources: WORK-CATM (Chapter 24)
+   Thesis: Grice's attempt to analyze conventional meaning in terms of speaker's meaning fails. Conventional meaning is prior to and presupposed by speaker's meaning, not constructed from it. One cannot mean proposition P by utterance U unless U already conventionally means P.
+
+[LANG-079] Speaker Meaning Presupposes Conventional Meaning
+   Sources: WORK-CATM (Chapter 24)
+   Thesis: A speaker cannot mean P by utterance U unless the speaker believes that U already conventionally means P. Speaker's meaning essentially involves exploiting antecedent conventional meanings. Grice reverses the order of explanatory priority.
+
+[LANG-080] Compositionality Refutes Grice
+   Sources: WORK-CATM (Chapter 24, Footnote 283)
+   Thesis: The compositional nature of language is incompatible with Gricean analysis. Unuttered sentences already have determinate meanings because their constituents have meanings and there are recursive rules. Grice cannot explain how sentences never uttered have fixed meanings, since nobody has ever meant anything by them.
+
+[LANG-081] Sentence Meaning Involves Success-Conditions
+   Sources: WORK-CATM (Chapter 24)
+   Thesis: To know what a sentence means is to know under what circumstances a tokening of it succeeds or fails in whatever illocutionary task it is designed to accomplish. Assertions succeed iff true, questions succeed iff answered truthfully, commands succeed iff obeyed. Success-conditions, not speaker intentions, determine literal meaning.
+
+[LANG-082] Information Transmission Requires Computation
+   Sources: WORK-CATM (Chapter 1)
+   Thesis: Information that one takes away from verbal exchange is absorbed through the process of figuring out what is meant by the speaker's words. Understanding involves computational work exploiting both semantic and non-semantic background knowledge. Literal meaning directs but does not determine communicated information.
+
+[LANG-083] Hesperus=Phosphorus Problem Solved by Distinguishing Meaning Levels
+   Sources: WORK-CATM (Chapter 1)
+   Thesis: The apparent problem that "Hesperus=Hesperus" and "Hesperus=Phosphorus" have the same literal meaning despite different cognitive significance dissolves when we recognize that understanding requires computing meanings using background knowledge. They have same literal meaning but different significance relative to typical epistemic contexts.
+
+[LANG-084] Historical Etymology Irrelevant to Synchronic Meaning
+   Sources: WORK-CATM (Chapter 24, Footnote 286)
+   Thesis: The historical process by which words acquired meaning is irrelevant to explaining current meaning-facts. "Socrates" in English was borrowed from French, which got it from Latin, which got it from Greek—but the word had full semantic properties from its first use. Gricean analysis at best identifies historical precursors, not meaning itself.
+
+[LANG-085] Context Required to Compute Sentence-Token Meanings
+   Sources: WORK-CATM (Chapter 1)
+   Thesis: One must exploit background semantic and non-semantic knowledge to compute the meanings of sentence-tokens that one encounters. Sentence-types have standing meanings, but grasping what a particular tokening means requires contextual computation. This is why identical sentence-tokens can convey different information in different contexts.
+
+
+====================================================================================================
+ADD TO DOMAIN: LOGIC- (After LOGIC-049)
+====================================================================================================
+
+[LOGIC-050] Analyticity Exists and is Not Reducible to Synonymy
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: Analytic truth exists but cannot be understood purely in terms of synonymy relations. Quine's argument against analyticity fails because it wrongly assumes all analytic truths must be modeled on "all bachelors are unmarried." Many analytic truths hold in virtue of conceptual structures, not synonymy.
+
+[LOGIC-051] Quine's Argument Against Analyticity Fails
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: Quine's argument that analyticity reduces to synonymy and therefore involves vicious circularity is multiply flawed. It assumes only biconditionals with synonymous flanks can be analytic (false: "n is an even prime iff n is one less than three"). It conflates formal truth with conceptual truth. It overgeneralizes from trivial to non-trivial analyticities.
+
+[LOGIC-052] Formal Truth Defined by Semantic Rules
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: A sentence-token T belonging to language L is formally true iff it is a theorem of the semantic rules of L that T is true. Formal truth is defined syntactico-semantically, not in terms of synonymy. "I am here now" is formally true not because of synonymy but because semantic rules guarantee its truth.
+
+[LOGIC-053] Two Concepts of Analytic Truth
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: "Analytic" is ambiguous between: (1) formally true (true by semantic rules alone), and (2) expressing a logically true proposition (one whose negation is incoherent due to conceptual structure). These are distinct notions. Quine's argument fails on both disambiguations because neither reduces to synonymy.
+
+[LOGIC-054] Non-Trivial Analyticities Don't Reduce to Synonymy
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: All non-trivial analytic truths do more than register synonymies. Examples: "there are continuous functions non-differentiable at any point," "causes precede their effects," "legal obligation presupposes governmental protection." These are analytic (negations are incoherent) but not based on synonymy relations.
+
+[LOGIC-055] Leibniz's Reduction Thesis Fails
+   Sources: WORK-CATM (Chapter 19)
+   Thesis: Leibniz's thesis that all logical truths reduce to the law of identity (Leibniz's Law) fails. Pap showed that reducing logical truths to identity-statements requires presupposing other logical principles. Similarly, Quine's thesis that all analyticities reduce to synonymy-based identities fails—not all logical structure is identity-structure.
+
+[LOGIC-056] Syntax is Not Characterized Morphologically
+   Sources: WORK-CATM (Chapters 17-19)
+   Thesis: There is no strictly morphological characterization of syntactic structure, logical form, proof, entailment, or confirmation. Syntax cannot be defined in terms of shape or physical properties. Any attempt to give morphological characterizations of logical notions fails.
+
+[LOGIC-057] Syntax is Meaning-How Not Meaning-What
+   Sources: WORK-CATM (Chapters 17-19)
+   Thesis: Syntax lies in how an expression means what it means, not in what it means. Syntactic structure is an aspect of semantics—specifically, the aspect concerned with the manner of meaning-assignment rather than the content assigned. This is true both in linguistic and logical contexts.
+
+[LOGIC-058] Proof is Abstract Object Not Behavioral Process
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: A proof is an abstract object—a network of logical relations holding among abstract objects (propositions, numbers). It must be distinguished from: (a) psychological knowledge of the proof, and (b) behavioral expressions (writing symbols). Symbol manipulation may cause or express proof-knowledge but never constitutes it.
+
+[LOGIC-059] Truth-in-L is Not Truth-in-All-Models-of-L
+   Sources: WORK-CATM (Chapter 18)
+   Thesis: Truth-in-language-L is not identical to truth-in-all-models-of-L. The former is determined by L's actual semantic rules; the latter by formal properties invariant under certain transformations. Model-theoretic truth is a construct useful for studying formal properties but doesn't define truth in a language.
+
+
+====================================================================================================
+ADD TO DOMAIN: META- (After META-040)
+====================================================================================================
+
+[META-041] Propositions Exist
+   Sources: WORK-CATM (Throughout)
+   Thesis: Propositions exist as abstract objects that are the bearers of truth and falsity. They exist independently of being grasped by any mind. There were true propositions before there was thought. Quine and others who deny propositions are straightforwardly wrong.
+
+[META-042] Abstract Objects Exist
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: Abstract objects exist, including propositions, numbers, and logical relations. Proof is a network of logical relations among such abstract objects. These are not reducible to physical objects, mental states, or behavioral dispositions.
+
+[META-043] Truth-Bearers Are Propositions Not Sentences
+   Sources: WORK-CATM (Chapter 24)
+   Thesis: The primary bearers of truth are propositions, not sentences. Sentences have success-conditions relative to illocutionary acts. A sentence-token succeeds iff it encodes a true proposition (for assertions), but truth itself is a property of propositions.
+
+[META-044] Singular Propositions Exist
+   Sources: WORK-CATM (Chapters 1, 3)
+   Thesis: Singular propositions exist—propositions directly about particular objects (e.g., "R has property phi" where R is a particular rock). Semantic externalism is vindicated by the existence of singular propositions, even though mental contents are not singular propositions.
+
+
+====================================================================================================
+ADD TO DOMAIN: METH- (After METH-040)
+====================================================================================================
+
+[METH-041] Pre-Theoretic Intuitions About Self-Knowledge Are Data
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: Our pre-theoretic conviction that we have Cartesian certainty about our thought-contents is a datum that philosophical theories must accommodate. A theory that denies this datum is thereby shown to be false. Philosophical theorizing cannot legitimately overturn such basic epistemic facts.
+
+[METH-042] Distinguish Content-Externalism from Semantic-Externalism
+   Sources: WORK-CATM (Chapter 1, throughout)
+   Thesis: Failure to distinguish content-externalism (about mental content) from semantic-externalism (about word meaning) has led to widespread confusion in contemporary philosophy. These are distinct doctrines with different truth-values and must be carefully separated in philosophical analysis.
+
+[METH-043] Arguments Must Consider Full Range of Epistemically Identical Worlds
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: When evaluating claims about self-knowledge and epistemic access, one must consider the full range of epistemically identical worlds, not just convenient subsets. Burge's argument fails because it only considers worlds where external objects exist, ignoring other epistemically identical possibilities.
+
+[METH-044] Phenomenology is Evidence for Structure of Experience
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: It is a highly reasonable (though conceivably defeasible) presumption that perceptual experiences have the structure they appear to have phenomenologically. Since visual perception strongly appears not to have sentential structure, this is good evidence it lacks such structure. Theoretical considerations cannot easily override phenomenological evidence about experience.
+
+[METH-045] Intuitions About Machine Cognition Are Unreliable
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: Intuitions that calculators and automata "think" are unreliable because they telescope in background knowledge about designers' intentions and social functions. The same physical system seems cognitive in one social context but not another, showing our intuitions track extrinsic factors rather than intrinsic cognitive properties.
+
+
+====================================================================================================
+ADD TO DOMAIN: MIND- (After MIND-075)
+====================================================================================================
+
+[MIND-076] Content Externalism is False
+   Sources: WORK-CATM (Introduction, Part I)
+   Thesis: Content externalism—the doctrine that mental content is constitutively dependent on environmental facts about causal origins—is false. Two brain-states can be qualitatively identical yet have the same contents even when embedded in different environments. Twin Earth arguments fail to establish that mental content is fixed by external factors.
+
+[MIND-077] Semantic Externalism is True But Distinct from Content Externalism
+   Sources: WORK-CATM (Chapter 1)
+   Thesis: Semantic externalism (the doctrine about what words mean) must be sharply distinguished from content externalism (the doctrine about what people think). Semantic externalism is unqualifiedly true even though content externalism is unqualifiedly false. Failure to distinguish these doctrines has led to widespread confusion.
+
+[MIND-078] Mental Content as Knowledge of Existence-Claims
+   Sources: WORK-CATM (Chapters 2-7)
+   Thesis: To have a concept of x is to know some existence-claim that x uniquely satisfies. Mental content is determined by the subject's knowledge of descriptions, not by causal-historical chains to external objects. Concepts are individuated by the existence-claims one knows, not by external reference.
+
+[MIND-079] Concepts Are Not Object-Involving
+   Sources: WORK-CATM (Chapter 6)
+   Thesis: Concepts do not have object-involving content. Even in paradigm cases of causally-mediated perception, one's concept has the form "there is something x having such and such properties over in that place" rather than "Smith has phi." Mental content is given by existence claims that objects satisfy, not by the objects themselves.
+
+[MIND-080] Mental States Can Exist Without Referents
+   Sources: WORK-CATM (Chapter 6)
+   Thesis: A mental state can exist even if its apparent referent does not exist. Jones could have a concept qualitatively identical to his concept of Smith even if Smith didn't exist, because the concept's content is given by a description rather than being constituted by Smith himself.
+
+[MIND-081] Self-Knowledge Has Cartesian Certainty
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: We have Cartesian certainty about the contents of our own thoughts. It is a datum that I know with special certainty that I am thinking "I want to drink water" rather than some other thought. This immediate self-knowledge cannot be undermined by philosophical theory.
+
+[MIND-082] Content Externalism Undermines Self-Knowledge
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: Content externalism is incompatible with Cartesian self-knowledge. If externalism were correct, there would be epistemically identical worlds where one fails to have the thoughts one actually has. Therefore one couldn't know with certainty which thoughts one is having, contradicting the datum of self-knowledge.
+
+[MIND-083] Burge's Slow-Switching Argument Fails
+   Sources: WORK-CATM (Chapter 9)
+   Thesis: Burge's argument that content externalism is compatible with self-knowledge fails. It only considers worlds where the relevant objects exist, not the full set of epistemically identical worlds. It either begs the question or erroneously identifies epistemically identical worlds with a subset where external objects have been loaded into thought-contents.
+
+[MIND-084] Computational Theory of Mind (CTM) is False
+   Sources: WORK-CATM (Part II, Chapters 13-25)
+   Thesis: The Computational Theory of Mind—the doctrine that thinking consists in the manipulation of symbols in virtue of their syntactic (morphological) properties—is fundamentally false. It involves a misunderstanding of syntax and cannot account for the nature of cognitive achievement.
+
+[MIND-085] Thought is Not Symbol Manipulation Per Se
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: Cognitive achievement requires sensitivity to semantic and extra-semantic facts, not mere symbol manipulation. Even in domains with decision procedures, what counts as cognitive achievement is recognizing complex propositions about conventions and truth-conditions, not mechanical shape-manipulation.
+
+[MIND-086] Syntax is Meaning-How Not Morphology
+   Sources: WORK-CATM (Chapters 17-19)
+   Thesis: Syntax is not identical with morphology or shape. Rather, syntax is meaning-how as opposed to meaning-what. An expression's syntactic properties lie in how it means what it means, not in its physical shape. CTM's equation of syntax with morphology is therefore fundamentally mistaken.
+
+[MIND-087] Shape is Neither Necessary Nor Sufficient for Meaning
+   Sources: WORK-CATM (Chapter 18)
+   Thesis: Given any language (actual or possible), an object's having a particular shape is neither necessary nor sufficient for being assigned meaning by that language. Syntax cannot be given a purely morphological characterization.
+
+[MIND-088] Visual Perception Has Non-Sentential Structure
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: Visual perceptions do not have sentential or propositional structure. Perceptual experience is fundamentally analog rather than digital. There is no evidence from phenomenology that perceptions decompose into discrete symbolic elements the way sentences do.
+
+[MIND-089] Perceptual Content is More Fine-Grained Than Linguistic Content
+   Sources: WORK-CATM (Chapter 22, Evans-McDowell debate)
+   Thesis: Perceptions are much more fine-grained than sentences. What you see is never just "red" but always a hyper-specific shade. Language uses broad rubrics that fail to capture the structure of perception. Even demonstratives like "that exact shade" don't have structure comparable to perception.
+
+[MIND-090] Non-Conceptual (Non-Propositional) Content Exists
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: Non-conceptual content must be understood on its own terms, not as conceptual content in disguise. Perceptual content is not propositional content requiring demonstrative supplementation. The structure of perception is fundamentally different from the structure of sentences or propositions.
+
+[MIND-091] Mental Content is Not Categorically Sentential
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: Not all mental content has sentential or para-sentential structure. Dreams, fantasies, mental images, aesthetic reactions, and emotional responses lack the digital/propositional structure that Language of Thought requires. These are genuine forms of representation that cannot be reduced to sentential form.
+
+[MIND-092] Aesthetic and Emotional Reactions Lack Sentential Structure
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: Aesthetic and emotional reactions do not have sentential structure. They are amorphous and lacking in the compositional structure characteristic of sentences. Yet they track objective realities and are genuinely representational, showing that awareness of objective fact need not be embodied in sentential structures.
+
+[MIND-093] Phenomenology is Constitutive of Aesthetic Reaction
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: The phenomenological aspects of aesthetic experience are constitutive of the aesthetic reaction itself, not merely effects of underlying judgments. A being with no phenomenological reaction to music would fail to have an aesthetic reaction to it, even if it made correct judgments about musical structure.
+
+[MIND-094] Sentential Content is Derivative Not Fundamental
+   Sources: WORK-CATM (Chapter 22)
+   Thesis: Sentential/propositional contents are highly derivative representations that must be distillations of non-digital information. Perception is fundamental to our understanding of external reality, and perceptual content is non-sentential; therefore sentential content cannot be the basic form of mental representation.
+
+[MIND-095] Pre-Linguistic Creatures Can Think
+   Sources: WORK-CATM (Footnote 276)
+   Thesis: Animals and pre-verbal infants have true and false mental activity. Linguistic competence is not constitutive of the ability to think, since the ability to think is a prerequisite to learning a language. Davidson's view that one must know a language to think is false and incompatible with anyone meaning anything.
+
+[MIND-096] Cognitive Maps Underlying Perception are Egocentric
+   Sources: WORK-CATM (Chapter 5)
+   Thesis: The cognitive maps embodied in perception have fundamentally egocentric character. There is a privileged reference-point p such that the map's information about place x is more accurate than about place y exactly if x is closer to p on the map. These egocentric maps are the cognitive apparatus through which we learn about external reality.
+
+[MIND-097] Language is Not in Lock-Step With Thought
+   Sources: WORK-CATM (Chapter 15)
+   Thesis: Language's utility depends precisely on its not being in lock-step with thought. We can use expressions meaningfully without fully understanding them (e.g., 87-digit number expressions). Symbols can facilitate information transmission even when nobody knows their exact referents, because understanding involves knowing how they mean rather than what they mean.
+
+[MIND-098] Analytic Functionalism via Ramsey-Lewis Sentences Fails
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: The attempt to analyze mental states through Ramsey-Lewis sentences fails because it reduces to behaviorism. Mental states cannot be defined purely in terms of inputs, outputs, and functional roles. The psychological conditions constituting knowledge are distinct from their behavioral expressions.
+
+[MIND-099] Proof-Derivation is Not Behavioral
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: Proof itself is an abstract object—a network of logical relations among abstract objects. It must be distinguished from: (a) psychological knowledge of the proof, and (b) behavioral expressions (writing symbols). These three must be distinguished. Symbolic manipulations may cause or express proof-knowledge but are never constitutive of it. CTM conflates behavioral expressions with cognitive states.
+
+[MIND-100] Calculator Intuitions Depend on Background Knowledge
+   Sources: WORK-CATM (Chapter 16)
+   Thesis: The intuition that calculators "think" or "compute" vanishes when we consider a qualitatively identical object created by freak accident in an environment lacking our symbolic conventions. Our intuitions about machine cognition telescope in background knowledge of socio-psychological conditions and designers' intentions, making them unreliable guides to whether symbol manipulation constitutes thought.
+
+
+====================================================================================================
+UPDATED STATISTICS FOR AFFECTED DOMAINS
+====================================================================================================
+
+EP-: 159 positions (was 154, added 5)
+LANG-: 85 positions (was 70, added 15)
+LOGIC-: 59 positions (was 49, added 10)
+META-: 44 positions (was 40, added 4)
+METH-: 45 positions (was 40, added 5)
+MIND-: 100 positions (was 75, added 25)
+
+TOTAL NEW POSITIONS ADDED: 64
+NEW TOTAL FOR DATABASE: 1,231 positions (was 1,167)
+
+====================================================================================================

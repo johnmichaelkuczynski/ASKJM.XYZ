@@ -1,0 +1,171 @@
+====================================================================================================
+DATABASE EXTRACTION SUMMARY
+====================================================================================================
+Work Processed: Conceptual Atomism and the Computational Theory of Mind: 
+                A Defense of Content-Internalism and Semantic Externalism
+Date: November 16, 2025
+Total Positions Extracted: 64
+====================================================================================================
+
+OVERVIEW
+====================================================================================================
+
+I have systematically analyzed your work "Conceptual Atomism and the Computational Theory of Mind"
+and extracted 64 distinct philosophical positions, organized across 6 domains:
+
+- MIND- (Philosophy of Mind): 25 positions [MIND-076 through MIND-100]
+- LANG- (Philosophy of Language): 15 positions [LANG-071 through LANG-085]
+- EP- (Epistemology): 5 positions [EP-155 through EP-159]
+- LOGIC- (Logic): 10 positions [LOGIC-050 through LOGIC-059]
+- META- (Metaphysics): 4 positions [META-041 through META-044]
+- METH- (Methodology): 5 positions [METH-041 through METH-045]
+
+
+FILES PROVIDED
+====================================================================================================
+
+1. CONCEPTUAL_ATOMISM_DATABASE_ENTRY.txt
+   - Complete standalone database entry
+   - Contains all 64 positions with full formatting
+   - Includes thematic summary and statistics
+   - Can be used as reference or merged manually
+
+2. APPENDIX_FOR_DATABASE_INTEGRATION.txt
+   - Formatted for direct insertion into your existing database
+   - Positions organized by domain with proper numbering
+   - Instructions for where to insert each section
+   - Updated statistics for affected domains
+
+
+KEY THEMES EXTRACTED
+====================================================================================================
+
+1. CONTENT INTERNALISM DEFENSE
+   - Content externalism is false; mental content determined by descriptive knowledge
+   - Twin Earth arguments fail to establish environmental determination of content
+   - Concepts are knowledge of existence-claims, not object-involving
+
+2. SEMANTIC EXTERNALISM COMPATIBILITY
+   - Semantic externalism (about word meaning) is true
+   - Must be sharply distinguished from content externalism
+   - Reference is world-relative even though mental content is not
+
+3. ANTI-COMPUTATIONALISM (CTM CRITIQUE)
+   - Computational Theory of Mind is fundamentally false
+   - Syntax is meaning-how, not morphology
+   - Thought requires semantic sensitivity, not mere symbol manipulation
+   - Shape neither necessary nor sufficient for meaning assignment
+
+4. NON-SENTENTIAL MENTAL CONTENT
+   - Visual perception has analog, non-propositional structure
+   - Perceptual content more fine-grained than linguistic content
+   - Aesthetic/emotional reactions lack sentential structure yet represent reality
+   - Sentential content is derivative, not fundamental
+
+5. SELF-KNOWLEDGE PRESERVED
+   - We have Cartesian certainty about our thought-contents
+   - Content externalism incompatible with this datum
+   - Burge's slow-switching argument begs the question
+
+6. MODIFIED DESCRIPTIVISM
+   - Three ways to acquire name reference (ostensive, descriptive, testimonial)
+   - Reference mediated by knowledge of uniquely individuating descriptions
+   - Kripke cases actually support rather than refute descriptivism
+   - Metalinguistic knowledge can simulate understanding
+
+7. ANTI-GRICEAN SEMANTICS
+   - Grice's theory of meaning fails
+   - Conventional meaning prior to speaker meaning
+   - Compositionality refutes Grice
+   - Sentence meaning involves success-conditions, not speaker intentions
+
+8. DEFENSE OF ANALYTICITY
+   - Analytic truth exists and is not reducible to synonymy
+   - Quine's arguments against analyticity fail
+   - Two concepts: formal truth (semantic rules) and conceptual truth
+   - Non-trivial analyticities don't reduce to synonymy
+
+
+MAJOR PHILOSOPHICAL CONTRIBUTIONS
+====================================================================================================
+
+This work represents a systematic defense of:
+
+1. Content internalism combined with semantic externalism—showing these are compatible
+2. Descriptivist account of mental content and reference
+3. Comprehensive critique of computational approaches to mind
+4. Recognition of non-propositional forms of mental representation
+5. Preservation of privileged self-knowledge against externalist challenges
+6. Defense of analytic truth against Quinean skepticism
+7. Critique of Gricean approaches to meaning
+
+The work engages critically with major figures including:
+- Putnam and Burge (on externalism)
+- Fodor (on CTM and Language of Thought)
+- Kripke (on reference and names)
+- Grice (on meaning)
+- Quine (on analyticity)
+- Evans and McDowell (on non-conceptual content)
+
+
+INTEGRATION RECOMMENDATIONS
+====================================================================================================
+
+To integrate these entries into your existing database:
+
+1. QUICK INTEGRATION (Recommended):
+   - Copy the sections from APPENDIX_FOR_DATABASE_INTEGRATION.txt
+   - Insert each domain's entries into the corresponding section of your main database
+   - Update the summary statistics at the end of the database
+
+2. MANUAL REVIEW:
+   - Review CONCEPTUAL_ATOMISM_DATABASE_ENTRY.txt for any positions you want to modify
+   - Edit thesis statements or sources as needed
+   - Then integrate using the appendix file
+
+3. NEW TOTALS:
+   - Your database will grow from 1,167 to 1,231 total positions
+   - MIND- domain: 75 → 100 positions
+   - LANG- domain: 70 → 85 positions
+   - EP- domain: 154 → 159 positions
+   - LOGIC- domain: 49 → 59 positions
+   - META- domain: 40 → 44 positions
+   - METH- domain: 40 → 45 positions
+
+
+NOTES ON EXTRACTION METHODOLOGY
+====================================================================================================
+
+I systematically analyzed the full 6,963-line text, focusing on:
+
+- Part I (Chapters 1-12): Content internalism and semantic externalism
+- Part II (Chapters 13-25): Critique of Computational Theory of Mind
+- Throughout: Arguments about reference, concepts, self-knowledge, analyticity
+
+Each position represents a distinct philosophical thesis that:
+- Is explicitly defended in the text
+- Has clear textual support with chapter/section references
+- Makes a substantive philosophical claim
+- Is appropriately categorized by domain
+
+The extraction maintains consistency with your existing database format:
+- [DOMAIN-###] Position Title format
+- Sources: line with work reference
+- Thesis: line with clear statement
+- Sequential numbering within domains
+
+
+FUTURE WORK SUGGESTIONS
+====================================================================================================
+
+This work likely contains additional positions that could be extracted regarding:
+- Specific critiques of individual philosophers (Wittgenstein, Russell, Frege)
+- Detailed arguments about spatial representation and egocentric maps
+- Positions on perception and action
+- Views on mathematical knowledge and arithmetic
+- Positions on psychological explanation and folk psychology
+
+If you want me to extract these in more granular detail, I can do a second pass focusing
+on these specific topics.
+
+====================================================================================================
