@@ -165,7 +165,7 @@ def ask():
         question = data.get('question', '')
         provider = data.get('provider', 'grok')  # Grok is now default
         model = data.get('model', '')
-        mode = data.get('mode', 'basic')
+        mode = data.get('mode', 'enhanced')  # Enhanced is now default
         
         print(f"Received question: {question}")
         print(f"Provider: {provider}, Model: {model}, Mode: {mode}")

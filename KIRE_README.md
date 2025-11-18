@@ -68,7 +68,7 @@ POST /api/ask
 {
     "question": "What about male feminists?",
     "provider": "grok",  # Default: Grok (xAI)
-    "mode": "basic"
+    "mode": "enhanced"  # Default: Enhanced Mode
 }
 # Response includes KIRE deductions formatted as Kuczynski prose
 ```
@@ -148,6 +148,7 @@ See KIRE fire on:
 ✓ "Consider the proposition that..." formatting enforced
 ✓ Examples requirement maintained
 ✓ **Grok (xAI) set as default AI provider**
+✓ **Enhanced Mode set as default response mode**
 
 ## AI Provider Options
 

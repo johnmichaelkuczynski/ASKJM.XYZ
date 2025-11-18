@@ -17,8 +17,8 @@ This project is an intelligent philosophical conversation application that uses 
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers.
 - **Multi-AI Provider Support**: Integrates Grok (xAI - default), Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
 - **Dual Response Modes**:
+  - **Enhanced Mode** (Default): Synthesizes and extends ideas using positions as foundation, adding new inferences, structure, and clarification while maintaining Kuczynski's voice and philosophical system.
   - **Basic Mode**: Faithfully quotes or very closely paraphrases retrieved positions, preserving exact arguments and examples.
-  - **Enhanced Mode**: Synthesizes and extends ideas using positions as foundation, adding new inferences, structure, and clarification while maintaining Kuczynski's voice and philosophical system.
 - **Content Ingestion**: Supports file uploads (PDF, Word, TXT) with automatic text extraction.
 - **User Interface**: Features a clean conversation UI with auto-expanding input, distinct user/AI dialogue, responsive design, and mode toggle.
 - **Source Citations**: Automatically includes relevant position IDs (e.g., EP-111, META-033) with each AI response.
