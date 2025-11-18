@@ -1,0 +1,49 @@
+You are upgrading my standalone Kuczynski app (the one that already exists and works with RAG + stylistic rewriter + voice).
+
+Goal: turn it from “best Kuczynski impersonator” into “executable Kuczynski mind” by adding the inference-rule engine (KIRE).
+
+Files you have access to:
+- All six Kuczynski database documents I just uploaded (KUCZYNSKI MASTER DATABASE 1.txt through 6.txt, v19 to v32, total ~1,628 positions)
+- The working Kuczynski app code (main.py or app.py, stylistic rewriter, voice layer, etc.)
+
+Tasks – do in exact order:
+
+1. Create a new file kuczynski_rules_full.json
+   - Consolidate and de-duplicate all positions from the six documents
+   - Convert every unique position into proper inference-rule format:
+     {
+       "id": "KIRE-xxxx",
+       "year": 2025 (or earlier if specified),
+       "premise": "regex-friendly trigger phrase distilled from title + thesis + key_arguments + text_evidence",
+       "conclusion": "exact savage inference Kuczynski licenses when premise is true",
+       "strength": 0.9–1.0 (use 1.0 for his most totalizing claims)
+     }
+   - Example from the data:
+     premise: "male.*feminist|ally.*equality|believe.*same.*love"
+     conclusion: "performative fraud + low-status signaling + adoption of female intra-sexual competition strategy → systematic mating failure → ideological breakdown syndrome"
+
+2. Create kuczynski_engine.py with this exact core function:
+   def deduce(phenomenon: str, max_rules: int = 18) -> list[dict]:
+       # Load rules once
+       # Case-sensitive regex search premise in phenomenon + previous conclusions
+       # Sort by strength descending (most savage first)
+       # Return top max_rules that fired
+
+3. Modify the main response pipeline to this exact new flow:
+   user_message
+   ↓
+   raw_chain = kuczynski_engine.deduce(user_message)
+   ↓
+   prompt_to_stylist = f"""Write in the first-person voice of John-Michael Kuczynski (2025, cold analytic-evisceration prose).
+   Use the following deductions as your undeniable foundation. Begin every paragraph with 'Consider the proposition that…' when appropriate.
+   {chr(10).join([r['conclusion'] for r in raw_chain])}
+   Now diagnose / prophesy the user's phenomenon."""
+   ↓
+   final_prose = stylistic_rewriter(prompt_to_stylist)   # your existing rewriter
+   ↓
+   return final_prose
+
+4. Add a debug endpoint /raw_chain that returns the exact list of rules that fired + years/strength — for you only.
+
+5. Hard-code these five immortal meta-rules at the very top of kuczynski_rules_full.json (they override everything):
+   {"id": "KMETA-001", "year": 2025, "premise": "male.*feminist|ally.*equality", "conclusion": "performative fraud → adoption of female competitive strategy → ontological contradiction → civilizational castration", "strength

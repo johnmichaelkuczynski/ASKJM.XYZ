@@ -1,0 +1,15 @@
+[
+  {"id": "KIRE-001", "year": 2024, "premise": "strict empiricism|observation.*self-corroborate", "conclusion": "vicious circularity → pure skepticism → autistic withdrawal from reality", "strength": 1.0},
+  {"id": "KIRE-002", "year": 2023, "premise": "knowledge requires non-empirical justification", "conclusion": "a priori knowledge necessary → rationalist foundationalism", "strength": 1.0},
+  {"id": "KIRE-005", "year": 2025, "premise": "male declares feminist allegiance|male feminist", "conclusion": "low-status signaling + adoption of female competitive strategy → systematic mating-market failure → ideological breakdown syndrome", "strength": 1.0},
+  {"id": "KIRE-007", "year": 2025, "premise": "ovum-sperm cost differential|hypergamic optimization", "conclusion": "irreducible mate-value asymmetry → all declarations of romantic symmetry are performative fraud", "strength": 1.0},
+  {"id": "KIRE-012", "year": 2025, "premise": "self-contained man|autonomous identity formation", "conclusion": "non-self-contained (feminine) mode adopted by male → ontological contradiction → civilizational castration", "strength": 1.0},
+  {"id": "KIRE-018", "year": 2025, "premise": "liberalism.*dependency-seeking", "conclusion": "feminine archetype → harmony-prioritizing → transcendence-avoiding → demographic collapse within two generations", "strength": 0.98},
+  {"id": "KIRE-022", "year": 2024, "premise": "possible worlds semantics|counterfactual.*similarity metric", "conclusion": "vicious circularity + arbitrary similarity → entire enterprise bankrupt", "strength": 1.0},
+  {"id": "KIRE-030", "year": 2025, "premise": "probability.*frequency|epistemic interpretation", "conclusion": "causal structure ignored → refuted by identical sequences under different laws", "strength": 1.0},
+  {"id": "KIRE-044", "year": 2025, "premise": "gifted child.*mother", "conclusion": "proxy narcissism filling maternal void → identity by offspring → class signifier", "strength": 0.97},
+  {"id": "KIRE-051", "year": 2025, "premise": "dictator.*tunic|military uniform", "conclusion": "anti-relational declaration of control → visual architecture of domination without seduction", "strength": 0.96},
+  {"id": "KIRE-067", "year": 2025, "premise": "Neuralink|brain-computer interface", "conclusion": "technological enactment of narcissistic omnipotence fantasy → fourth narcissistic blow → silicon death-drive fusion", "strength": 1.0},
+  {"id": "KIRE-089", "year": 2025, "premise": "AI.*consciousness|computational theory of mind", "conclusion": "irreducible intensional structure → CTM fails → calculator intuitions telescope designer intention", "strength": 1.0},
+  ...
+]

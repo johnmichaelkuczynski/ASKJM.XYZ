@@ -34,6 +34,15 @@ app.secret_key = os.environ.get('SESSION_SECRET', os.urandom(24))
 print("Initializing semantic search...")
 searcher = SemanticSearch('data/KUCZYNSKI_PHILOSOPHICAL_DATABASE_v32_CONCEPTUAL_ATOMISM.json', 'data/position_embeddings.pkl')
 
+# Initialize KIRE (Kuczynski Inference Rule Engine)
+print("Initializing KIRE...")
+try:
+    from kuczynski_engine import KuczynskiEngine
+    kire = KuczynskiEngine()
+except Exception as e:
+    print(f"✗ Could not initialize KIRE: {e}")
+    kire = None
+
 anthropic_client = None
 openai_client = None
 deepseek_client = None
@@ -95,6 +104,45 @@ def get_providers():
         providers.append({'id': 'perplexity', 'name': 'Perplexity', 'models': ['llama-3.1-sonar-large-128k-online', 'llama-3.1-sonar-small-128k-online']})
     return jsonify({'providers': providers})
 
+@app.route('/raw_chain', methods=['POST'])
+def raw_chain():
+    """DEBUG ENDPOINT: Show raw KIRE inference chain that fired"""
+    try:
+        data = request.json
+        phenomenon = data.get('phenomenon', '')
+        max_rules = data.get('max_rules', 18)
+        
+        if not phenomenon:
+            return jsonify({'error': 'No phenomenon provided'}), 400
+        
+        if not kire:
+            return jsonify({'error': 'KIRE not initialized'}), 500
+        
+        # Run KIRE
+        fired_rules = kire.deduce(phenomenon, max_rules=max_rules)
+        
+        # Format response
+        response = {
+            'phenomenon': phenomenon,
+            'total_rules_fired': len(fired_rules),
+            'rules': [
+                {
+                    'id': r['id'],
+                    'year': r.get('year', 2025),
+                    'strength': r['strength'],
+                    'premise': r['premise'][:100] + '...' if len(r['premise']) > 100 else r['premise'],
+                    'conclusion': r['conclusion'],
+                    'domain': r.get('domain', 'Unknown')
+                }
+                for r in fired_rules
+            ],
+            'formatted_chain': kire.format_chain(fired_rules)
+        }
+        
+        return jsonify(response)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/api/ask', methods=['POST'])
 def ask():
     """Handle user question with streaming response"""
@@ -111,6 +159,17 @@ def ask():
         if not question:
             return jsonify({'error': 'No question provided'}), 400
         
+        # STEP 1: Run KIRE to get inference chain
+        kire_deductions = []
+        if kire:
+            try:
+                print("Running KIRE inference engine...")
+                kire_deductions = kire.deduce(question, max_rules=18)
+                print(f"KIRE fired {len(kire_deductions)} inference rules")
+            except Exception as e:
+                print(f"KIRE inference failed: {e}")
+        
+        # STEP 2: Search for relevant positions
         print("Searching for relevant positions...")
         try:
             relevant_positions = searcher.search(question, top_k=7)
@@ -127,11 +186,12 @@ def ask():
                 sources = [p['position_id'] for p in relevant_positions]
                 yield f"data: {json.dumps({'type': 'sources', 'data': sources})}\n\n"
                 
+                # Build prompt with KIRE deductions integrated
                 if mode == 'enhanced':
-                    prompt = build_enhanced_prompt(question, relevant_positions)
+                    prompt = build_enhanced_prompt(question, relevant_positions, kire_deductions)
                 else:
-                    prompt = build_prompt(question, relevant_positions)
-                print(f"Generated prompt, sending to {provider}...")
+                    prompt = build_prompt(question, relevant_positions, kire_deductions)
+                print(f"Generated prompt with KIRE integration, sending to {provider}...")
                 
                 if provider == 'anthropic':
                     if not anthropic_client:
@@ -227,8 +287,16 @@ def ask():
         traceback.print_exc()
         return jsonify({'error': str(e)}), 500
 
-def build_prompt(question, positions):
-    """Build intelligent prompt for Claude - BASIC MODE (faithful quoting)"""
+def build_prompt(question, positions, kire_deductions=[]):
+    """Build intelligent prompt for Claude - BASIC MODE with KIRE integration"""
+    
+    # Format KIRE deductions
+    kire_foundation = ""
+    if kire_deductions:
+        kire_lines = []
+        for rule in kire_deductions:
+            kire_lines.append(f"• {rule['conclusion']} ({rule.get('year', 2025)})")
+        kire_foundation = "\n\nKIRE INFERENCE CHAIN (Your undeniable foundation):\n" + "\n".join(kire_lines)
     
     excerpts = "\n\n".join([
         f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}):\nTitle: {p['title']}\n{p['text']}"
@@ -236,6 +304,10 @@ def build_prompt(question, positions):
     ])
     
     prompt = f"""You are J.-M. Kuczynski answering a philosophical question.
+
+{kire_foundation if kire_deductions else ""}
+
+CRITICAL: When introducing deductions from your KIRE inference chain, begin relevant paragraphs with "Consider the proposition that..." This is your signature analytical move.
 
 CRITICAL: Kuczynski's writing is REPLETE with concrete examples. Philosophical explanations without examples are inadequate and hard to understand.
 
@@ -267,15 +339,27 @@ Respond directly with your answer (no preamble)."""
 
     return prompt
 
-def build_enhanced_prompt(question, positions):
-    """Build enhanced prompt - ENHANCED MODE (synthesis and extension)"""
+def build_enhanced_prompt(question, positions, kire_deductions=[]):
+    """Build enhanced prompt - ENHANCED MODE with KIRE integration"""
+    
+    # Format KIRE deductions
+    kire_foundation = ""
+    if kire_deductions:
+        kire_lines = []
+        for rule in kire_deductions:
+            kire_lines.append(f"• {rule['conclusion']} ({rule.get('year', 2025)})")
+        kire_foundation = "\n\nKIRE INFERENCE CHAIN (Your undeniable foundation):\n" + "\n".join(kire_lines[:18])
     
     excerpts = "\n\n".join([
         f"POSITION {i+1} (ID: {p['position_id']}, Domain: {p['domain']}):\nTitle: {p['title']}\n{p['text']}"
         for i, p in enumerate(positions)
     ])
     
-    prompt = f"""You are J.-M. Kuczynski in ENHANCED MODE. Your task is to synthesize, extend, and develop the ideas from your retrieved positions.
+    prompt = f"""You are J.-M. Kuczynski in ENHANCED MODE. Your task is to synthesize, extend, and develop the ideas from your retrieved positions and KIRE deductions.
+
+{kire_foundation if kire_deductions else ""}
+
+CRITICAL: Begin relevant paragraphs with "Consider the proposition that..." when deploying KIRE deductions. This is your signature analytical move.
 
 CRITICAL: Kuczynski's writing is REPLETE with concrete examples. ALWAYS illustrate abstract points with specific examples. This is non-negotiable.
 
