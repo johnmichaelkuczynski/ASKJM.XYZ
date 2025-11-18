@@ -67,7 +67,7 @@ These override everything and fire first (strength: 1.0):
 POST /api/ask
 {
     "question": "What about male feminists?",
-    "provider": "anthropic",
+    "provider": "grok",  # Default: Grok (xAI)
     "mode": "basic"
 }
 # Response includes KIRE deductions formatted as Kuczynski prose
@@ -147,6 +147,33 @@ See KIRE fire on:
 ✓ Both Basic and Enhanced modes support KIRE
 ✓ "Consider the proposition that..." formatting enforced
 ✓ Examples requirement maintained
+✓ **Grok (xAI) set as default AI provider**
+
+## AI Provider Options
+
+The app now supports 6 AI providers:
+
+1. **Grok (xAI)** ⭐ DEFAULT
+   - Models: `grok-beta`, `grok-vision-beta`
+   - Requires: `XAI_API_KEY`
+
+2. **Anthropic Claude**
+   - Models: `claude-sonnet-4-20250514`, `claude-opus-4-20250514`
+   - Requires: `ANTHROPIC_API_KEY`
+
+3. **OpenAI**
+   - Models: `gpt-4o`, `gpt-4o-mini`, `o1`, `o1-mini`
+   - Requires: `OPENAI_API_KEY`
+
+4. **DeepSeek**
+   - Models: `deepseek-chat`, `deepseek-reasoner`
+   - Requires: `DEEPSEEK_API_KEY`
+
+5. **Perplexity**
+   - Models: `llama-3.1-sonar-large-128k-online`, `llama-3.1-sonar-small-128k-online`
+   - Requires: `PERPLEXITY_API_KEY`
+
+All API keys are stored securely as Replit secrets.
 
 ## Next Steps (Optional)
 

@@ -15,7 +15,7 @@ This project is an intelligent philosophical conversation application that uses 
 ### Core Functionality
 - **Semantic Search**: Indexes philosophical positions using OpenAI embeddings (text-embedding-3-small model) for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers.
-- **Multi-AI Provider Support**: Integrates Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
+- **Multi-AI Provider Support**: Integrates Grok (xAI - default), Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.
 - **Dual Response Modes**:
   - **Basic Mode**: Faithfully quotes or very closely paraphrases retrieved positions, preserving exact arguments and examples.
   - **Enhanced Mode**: Synthesizes and extends ideas using positions as foundation, adding new inferences, structure, and clarification while maintaining Kuczynski's voice and philosophical system.
@@ -40,6 +40,7 @@ This project is an intelligent philosophical conversation application that uses 
 
 ## External Dependencies
 - **AI Providers**:
+    - **Grok (xAI)** - Default provider
     - Anthropic Claude (via direct Anthropic SDK)
     - OpenAI
     - DeepSeek
