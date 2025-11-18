@@ -155,7 +155,7 @@ See KIRE fire on:
 The app now supports 6 AI providers:
 
 1. **Grok (xAI)** ⭐ DEFAULT
-   - Models: `grok-beta`, `grok-vision-beta`
+   - Models: `grok-2-latest`, `grok-2-vision-1212`, `grok-vision-beta`
    - Requires: `XAI_API_KEY`
 
 2. **Anthropic Claude**

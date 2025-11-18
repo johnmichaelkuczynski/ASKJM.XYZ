@@ -107,7 +107,7 @@ def get_providers():
     """Return available AI providers"""
     providers = []
     if grok_client:
-        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-beta', 'grok-vision-beta']})
+        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-2-latest', 'grok-2-vision-1212', 'grok-vision-beta']})
     if anthropic_client:
         providers.append({'id': 'anthropic', 'name': 'Anthropic Claude', 'models': ['claude-sonnet-4-20250514', 'claude-opus-4-20250514']})
     if openai_client:
@@ -212,7 +212,7 @@ def ask():
                         yield f"data: {json.dumps({'type': 'error', 'data': 'Grok API key not configured'})}\n\n"
                         yield f"data: {json.dumps({'type': 'done'})}\n\n"
                         return
-                    model_name = model or "grok-beta"
+                    model_name = model or "grok-2-latest"
                     print(f"Using Grok model: {model_name}")
                     stream = grok_client.chat.completions.create(
                         model=model_name,
