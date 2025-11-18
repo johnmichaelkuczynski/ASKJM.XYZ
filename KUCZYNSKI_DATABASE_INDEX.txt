@@ -1,0 +1,201 @@
+====================================================================================================
+KUCZYNSKI PHILOSOPHICAL DATABASE - COMPLETE ARCHIVE
+ALL VERSIONS AND ITERATIONS
+====================================================================================================
+
+TOTAL DATABASE FILES: 8
+====================================================================================================
+
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v27_COMPLETE.json
+====================================================================================================
+
+METADATA:
+  version: v27_PLATO_COMPLETE
+  creation_date: 2025-11-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 37
+  total_positions: 836
+  works_range: WORK-001 to WORK-038 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-038: Why Was Socrates Executed? And Other Papers on Plato - 25 positions on political philosophy, epistemology, psychology
+
+POSITIONS: 836 total, 454 active
+
+WORKS CATALOGUED: 37
+
+FILE SIZE: 665.4 KB
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v28_BLOG_COMPLETE.json
+====================================================================================================
+
+METADATA:
+  version: v28_BLOG_COMPLETE
+  creation_date: 2025-01-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 38
+  total_positions: 894
+  works_range: WORK-001 to WORK-039 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-039: Blog Essays Collection (2025) - 58 positions on proceduralism, Zen Buddhism, liberalism, AI, cultural criticism
+
+POSITIONS: 894 total, 512 active
+
+WORKS CATALOGUED: 38
+
+FILE SIZE: 734.0 KB
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v29_BLOG_SET2_COMPLETE.json
+====================================================================================================
+
+METADATA:
+  version: v29_BLOG_SET2_COMPLETE
+  creation_date: 2025-01-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 39
+  total_positions: 951
+  works_range: WORK-001 to WORK-040 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-040: Blog Essays Collection Set 2 (2025) - 57 positions on entropy/counter-entropy, EMH critique, Jungian/Freudian analysis, evolutionary psychology, AI epistemology
+  positions_by_domain: [complex structure]
+
+POSITIONS: 951 total, 569 active
+
+WORKS CATALOGUED: 39
+
+FILE SIZE: 784.0 KB
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v30_COLLEGE_PAPERS_COMPLETE.json
+====================================================================================================
+
+METADATA:
+  version: v30_COLLEGE_PAPERS_COMPLETE
+  creation_date: 2025-01-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 40
+  total_positions: 1558
+  works_range: WORK-001 to WORK-040 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-041: College Papers Plus (2019) - 610 positions covering 63 papers on logic, ethics, epistemology, metaphysics, mind, language, science, religion, political philosophy, aesthetics
+  positions_by_domain: [complex structure]
+
+POSITIONS: 1558 total, 1176 active
+
+WORKS CATALOGUED: 40
+
+FILE SIZE: 976.6 KB
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v31_CONSCIOUSNESS_EPISTEMOLOGY.json
+====================================================================================================
+
+METADATA:
+  version: v31_CONSCIOUSNESS_EPISTEMOLOGY
+  creation_date: 2025-01-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 41
+  total_positions: 1564
+  works_range: WORK-001 to WORK-040 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-041: College Papers Plus (2019) - 610 positions covering 63 papers on logic, ethics, epistemology, metaphysics, mind, language, science, religion, political philosophy, aesthetics
+  positions_by_domain: [complex structure]
+  last_updated: 2025-11-17
+
+POSITIONS: 1564 total, 1182 active
+
+WORKS CATALOGUED: 41
+
+FILE SIZE: 981.8 KB
+
+====================================================================================================
+FILE: KUCZYNSKI_PHILOSOPHICAL_DATABASE_v32_CONCEPTUAL_ATOMISM.json
+====================================================================================================
+
+METADATA:
+  version: v32_CONCEPTUAL_ATOMISM
+  creation_date: 2025-01-16
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 42
+  total_positions: 1628
+  works_range: WORK-001 to WORK-040 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+  latest_addition: WORK-043: Conceptual Atomism and the Computational Theory of Mind - 64 positions on content internalism, CTM critique, semantic externalism, descriptivist concepts, non-sentential mental content, self-knowledge
+  positions_by_domain: [complex structure]
+  last_updated: 2025-11-18
+
+POSITIONS: 1628 total, 1246 active
+
+WORKS CATALOGUED: 42
+
+FILE SIZE: 1015.9 KB
+
+====================================================================================================
+FILE: master_database_v19_complete.json
+====================================================================================================
+
+POSITIONS: 708 total, 342 active
+
+FILE SIZE: 519.7 KB
+
+====================================================================================================
+FILE: master_database_v25_PROBABILITY_FIX.json
+====================================================================================================
+
+METADATA:
+  version: v25_PROBABILITY_FIX
+  creation_date: 2025-11-15
+  title: Kuczynski Philosophical Database - Complete v25
+  author: J.-M. Kuczynski, PhD
+  compiler: Zhi Systems
+  description: Complete consolidated database with ALL philosophical positions from works 001-037
+  total_works: 36
+  total_positions: 818
+  works_range: WORK-001 to WORK-037 (WORK-025 missing from corpus)
+  compilation_sources: [complex structure]
+  status: PRODUCTION READY
+  fix_note: Added 7 critical positions on probability from WORK-014 Chapter 7. These positions establish that probability is CAUSAL (not epistemic or statistical), refute Frequency Theory, and show that different causal structures entail different probabilities even with identical event-sequences.
+
+POSITIONS: 818 total, 436 active
+
+WORKS CATALOGUED: 36
+
+FILE SIZE: 642.7 KB
+
+
+====================================================================================================
+END OF ARCHIVE INDEX
+====================================================================================================
