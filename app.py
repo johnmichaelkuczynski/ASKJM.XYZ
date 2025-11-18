@@ -47,6 +47,18 @@ anthropic_client = None
 openai_client = None
 deepseek_client = None
 perplexity_client = None
+grok_client = None
+
+try:
+    XAI_API_KEY = os.environ.get("XAI_API_KEY")
+    if XAI_API_KEY and OpenAI:
+        grok_client = OpenAI(
+            api_key=XAI_API_KEY,
+            base_url="https://api.x.ai/v1"
+        )
+        print("✓ Grok (xAI) client initialized")
+except Exception as e:
+    print(f"✗ Could not initialize Grok: {e}")
 
 try:
     ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
@@ -94,6 +106,8 @@ def index():
 def get_providers():
     """Return available AI providers"""
     providers = []
+    if grok_client:
+        providers.append({'id': 'grok', 'name': 'Grok (xAI)', 'models': ['grok-beta', 'grok-vision-beta']})
     if anthropic_client:
         providers.append({'id': 'anthropic', 'name': 'Anthropic Claude', 'models': ['claude-sonnet-4-20250514', 'claude-opus-4-20250514']})
     if openai_client:
@@ -149,7 +163,7 @@ def ask():
     try:
         data = request.json
         question = data.get('question', '')
-        provider = data.get('provider', 'anthropic')
+        provider = data.get('provider', 'grok')  # Grok is now default
         model = data.get('model', '')
         mode = data.get('mode', 'basic')
         
@@ -193,7 +207,24 @@ def ask():
                     prompt = build_prompt(question, relevant_positions, kire_deductions)
                 print(f"Generated prompt with KIRE integration, sending to {provider}...")
                 
-                if provider == 'anthropic':
+                if provider == 'grok':
+                    if not grok_client:
+                        yield f"data: {json.dumps({'type': 'error', 'data': 'Grok API key not configured'})}\n\n"
+                        yield f"data: {json.dumps({'type': 'done'})}\n\n"
+                        return
+                    model_name = model or "grok-beta"
+                    print(f"Using Grok model: {model_name}")
+                    stream = grok_client.chat.completions.create(
+                        model=model_name,
+                        messages=[{"role": "user", "content": prompt}],
+                        stream=True,
+                        max_tokens=2500
+                    )
+                    for chunk in stream:
+                        if chunk.choices[0].delta.content:
+                            yield f"data: {json.dumps({'type': 'token', 'data': chunk.choices[0].delta.content})}\n\n"
+                
+                elif provider == 'anthropic':
                     if not anthropic_client:
                         yield f"data: {json.dumps({'type': 'error', 'data': 'Anthropic API key not configured'})}\n\n"
                         yield f"data: {json.dumps({'type': 'done'})}\n\n"
