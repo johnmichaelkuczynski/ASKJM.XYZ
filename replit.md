@@ -6,6 +6,7 @@ This project is an intelligent philosophical conversation application that uses 
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
 - **Response Style**: AI responses must faithfully represent Kuczynski's actual arguments, examples, and rigorous writing style, not glib paraphrases. This means quoting or very closely paraphrasing the actual text from positions, using his exact examples and rhetorical questions, preserving his step-by-step argumentative structure, and matching his rigorous, technical, methodical, and detailed tone. The AI should not summarize, simplify, or "make accessible" his work.
+- **Examples Required**: Kuczynski's writing is replete with concrete examples. AI responses MUST include examples when explaining abstract concepts (propositions, properties, mental states, etc.). This is mandatory, not optional. Without examples, responses become difficult to understand.
 - **Argumentation**: The AI prompt is configured to not argue against user input when they present a position; it defaults to SUPPORT/EXPAND mode, but acknowledges mismatches if retrieved positions conflict.
 - **Relevance Assessment**: The AI should check if retrieved positions actually address the user's question before using them, providing an intelligent fallback response consistent with Kuczynski's broader philosophy if no relevant positions exist.
 
