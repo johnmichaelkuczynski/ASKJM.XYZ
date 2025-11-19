@@ -19727,6 +19727,636 @@
       "thesis": "Calculator Intuitions Depend on Background Knowledge",
       "text": "The intuition that calculators 'think' or 'compute' vanishes when we consider a qualitatively identical object created by freak accident in an environment lacking our symbolic conventions. Our intuitions about machine cognition telescope in background knowledge of socio-psychological conditions and designers' intentions, making them unreliable guides to whether symbol manipulation constitutes thought.",
       "source_chapter": "Chapter 16"
+    },
+    {
+      "title": "The Equilibrium Worldview Rests on Four Core Assumptions",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "Contemporary economics rests on four interlocking assumptions: (1) Markets converge to equilibrium states, (2) Shocks are exogenous (perturbations come from outside the system), (3) Agents optimize (rational utility maximization), and (4) Systems are stable unless perturbed (equilibrium as natural state). These assumptions collectively constitute the equilibrium worldview.",
+      "consistency": "Universal in mainstream economics",
+      "development": "This worldview treats economies as closed systems whose behavior is determined by internal dynamics and stable laws, temporarily disrupted by external shocks but fundamentally tending toward equilibrium states.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-001"
+    },
+    {
+      "title": "Economies Are Open Systems, Not Closed Systems",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "Economies are open systems. They cannot be usefully modeled as closed systems that occasionally receive exogenous perturbations.",
+      "consistency": "This is a categorical fact about the nature of economic systems",
+      "development": "The distinction between endogenous and exogenous factors in real economies is not merely difficult to establish\u2014it is conceptually incoherent given the nature of economic systems.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-002"
+    },
+    {
+      "title": "The Equilibrium Worldview Constitutes a Category Error",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "The category error is this: Economies are open systems, but the equilibrium worldview treats them as closed systems.",
+      "consistency": "This is not a correctable empirical mistake but a fundamental conceptual error",
+      "development": "Economics attempts to apply methods appropriate for closed, structure-static systems to open, evolutionary systems. This category mistake undermines the discipline's predictive aspirations.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-003"
+    },
+    {
+      "title": "Reflexivity Refers to Agents' Awareness of and Response to System Dynamics",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "Reflexivity refers to the phenomenon where economic agents are aware of the dynamics to which they are subject and, on that basis, alter those dynamics. This creates a fundamental indeterminacy.",
+      "consistency": "Reflexivity is a structural feature of systems containing conscious, knowledge-responsive agents",
+      "development": "Consider the proposition that any economic prediction, once known to market participants, changes the conditions under which it was made. If a model predicts that asset X will appreciate, and this prediction becomes known, agents will act on it, altering the very conditions the model assumed. The prediction undermines itself.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-004"
+    },
+    {
+      "title": "No Stable Predictive Laws Can Govern Reflexive Systems",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "No stable predictive laws can govern systems whose components systematically respond to predictions about those systems.",
+      "consistency": "This is the reflexivity thesis\u2014a fundamental constraint on predictive science",
+      "development": "Economics attempts to model phenomena that are constitutively altered by the existence of the models themselves. This is not merely an empirical difficulty\u2014it is a structural feature that makes stable predictive laws impossible.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-005"
+    },
+    {
+      "title": "Economic Agents Are Self-Aware Unlike Physical Objects",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "Contrast physics with economics: A prediction about planetary motion does not cause planets to alter their trajectories. The objects of physical study are not self-aware. Economic agents are.",
+      "consistency": "This fundamental difference explains why physics can be predictive while economics cannot",
+      "development": "The self-awareness of economic agents means they can and do respond to predictions about their behavior, creating a feedback loop that undermines predictive stability.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-006"
+    },
+    {
+      "title": "Reflexivity Is Not an Empirical Difficulty But a Structural Feature",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "Reflexivity is not merely an empirical difficulty\u2014it is a structural feature of systems containing conscious, knowledge-responsive agents.",
+      "consistency": "This means the problem cannot be solved through better data or models",
+      "development": "The reflexive nature of economic systems is constitutive, not accidental. No improvement in methodology can eliminate it.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-007"
+    },
+    {
+      "title": "Emergence Occurs When Systems Produce Genuinely Novel Phenomena",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "Emergence occurs when a system produces genuinely novel phenomena\u2014properties or patterns not reducible to or predictable from prior system states, even in principle.",
+      "consistency": "Emergent phenomena are by definition not determined by prior states",
+      "development": "You cannot predict what does not yet exist in any form. New technologies, institutions, social practices, market forms, financial instruments, business models\u2014all represent genuine novelty.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-008"
+    },
+    {
+      "title": "All Disciplines Can Tolerate Some Emergence But Not Constant Emergence",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "All disciplines can tolerate some emergence from their objects of study. No discipline can tolerate constant emergence.",
+      "consistency": "This is a constraint on predictive science in general",
+      "development": "Physics can accommodate emergence at phase transitions or in complex systems, but these are special cases. The general domain of physics consists of law-governed, predictable phenomena. If physics constantly confronted emergence at every scale and timeframe, it would be impossible as a predictive science.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-009"
+    },
+    {
+      "title": "Economies Produce Constant Emergence",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "Economies produce constant emergence. The economy is not occasionally surprising; it is structurally innovative.",
+      "consistency": "This is an empirical fact about economic systems",
+      "development": "New technologies, institutions, social practices, market forms, financial instruments, business models\u2014all represent genuine novelty that could not have been predicted from prior economic states.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-010"
+    },
+    {
+      "title": "Constant Emergence Makes Predictive Disciplines Impossible",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "A discipline cannot be predictive when its domain constantly produces phenomena whose existence could not have been anticipated from the discipline's existing theoretical resources.",
+      "consistency": "This is the emergence thesis",
+      "development": "The unpredictability is not a matter of insufficient data or computational power. Emergent phenomena are, by definition, not determined by prior states.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-011"
+    },
+    {
+      "title": "Economies Are Path-Dependent Systems",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "Economies are path-dependent: their current state is a function not just of present conditions but of the entire historical trajectory by which they arrived there. Identical present conditions reached via different paths will produce different futures.",
+      "consistency": "Path-dependency means history matters irreducibly",
+      "development": "You cannot predict future states from present conditions alone. The entire historical path must be taken into account, making timeless laws impossible.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-012"
+    },
+    {
+      "title": "Organisms Are Relatively Stable; Evolution Is Inherently Unpredictable",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "Consider the proposition that organisms are relatively stable\u2014they change, but within limits set by their biological structure. Most organismic changes are constitutive of maintaining the same organism (homeostasis, adaptation within type). But evolution is inherently unpredictable. We cannot predict what new species will emerge, what ecological niches will be created, or how existing species will adapt to novel selection pressures.",
+      "consistency": "This is the contrast between organismic biology and evolutionary biology",
+      "development": "Organismic biology can be predictive because organisms have stable structures. Evolutionary biology cannot be predictive because evolution generates genuine novelty.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-013"
+    },
+    {
+      "title": "Economics Treats Evolutionary Systems as Organism-Like",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "Economics treats something inherently evolutionary as if it were organism-like. The discipline assumes economies have stable structures that can be described by time-invariant laws (like organismic biology). But real economies are in constant evolutionary flux, generating genuine novelty (like evolutionary biology).",
+      "consistency": "This is a fundamental category mistake",
+      "development": "You cannot predict evolution because there is no fixed reference frame. The 'rules' themselves evolve. What counts as a market, a firm, money, capital, labor\u2014all these categories shift over time.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-014"
+    },
+    {
+      "title": "Economic Ontology Is Fluid",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "Economics attempts to write laws for a domain where the basic ontology is fluid. What counts as a market, a firm, money, capital, labor\u2014all these categories shift over time.",
+      "consistency": "Fluid ontology prevents time-invariant laws",
+      "development": "If the basic categories of your domain are not stable, you cannot write laws that remain valid across time.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-015"
+    },
+    {
+      "title": "The Equilibrium Worldview Requires Distinguishing Endogenous from Exogenous Factors",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section V",
+      "thesis": "The equilibrium worldview requires distinguishing between endogenous factors (internal to the economic system) and exogenous shocks (external perturbations). But this distinction collapses under scrutiny.",
+      "consistency": "The endogenous/exogenous distinction is conceptually incoherent for open systems",
+      "development": "Consider the example: 'In Holland, they don't have my apps. I go to Holland and convince them to buy my apps. Exogenous stimulus, right?' Wrong. Or rather: the question is malformed.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-016"
+    },
+    {
+      "title": "The Boundary of Economic Systems Is Not Well-Defined",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section V",
+      "thesis": "The problem is that the boundary of the economic system is not well-defined. What counts as 'inside' vs. 'outside' the economy? Human creativity? Technological innovation? Political decisions? Cultural shifts? All of these both shape and are shaped by economic dynamics.",
+      "consistency": "Without a clear boundary, the endogenous/exogenous distinction is meaningless",
+      "development": "Is the existence of new technology endogenous or exogenous to 'the economy'? It is produced by economic agents, using economic resources, in response to economic incentives. Yet it represents genuine novelty\u2014something that did not exist within the prior economic system.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-017"
+    },
+    {
+      "title": "In Open Systems Everything Is Both Endogenous and Exogenous",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section V",
+      "thesis": "In a genuinely open system, the endogenous/exogenous distinction is not a useful analytical tool. Everything is, in a sense, both.",
+      "consistency": "This follows from the open-system nature of economies",
+      "development": "The endogenous/exogenous distinction presupposes a well-defined system boundary. Open systems lack such boundaries.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-018"
+    },
+    {
+      "title": "Economics Might Salvage Predictive Ambitions Through Invariants",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Perhaps economics could salvage its predictive ambitions by focusing on invariants\u2014features of economic systems that remain constant despite surface-level change. This is a more sophisticated defense. It concedes that particular economic states are unpredictable but maintains that certain relationships, constraints, or patterns persist.",
+      "consistency": "This is the strongest possible defense of economics as predictive",
+      "development": "The question becomes: Are there strictly economic invariants?",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-019"
+    },
+    {
+      "title": "Candidate Economic Invariants Are Either Tautological or Too Abstract",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Possible candidates for economic invariants include scarcity, opportunity cost, hierarchy, exchange, and specialization. But notice: these are either (1) tautological (scarcity, opportunity cost\u2014true by definition), (2) anthropological, not economic (hierarchy, exchange, specialization\u2014features of human societies generally, not specifically of 'economies'), or (3) insufficiently specific to ground quantitative predictions.",
+      "consistency": "All proposed invariants fail to support predictive economics",
+      "development": "Yes, all large-scale societies exhibit hierarchy. This tells us nothing about what forms that hierarchy will take, how rigid or fluid it will be, what the relevant status dimensions are, or how it will interact with other social structures. It is an invariant so abstract as to be analytically sterile.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-020"
+    },
+    {
+      "title": "Universal Invariants Are Too Abstract; Specific Principles Are Not Invariant",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Any invariants general enough to be true of all economic systems are too abstract to ground specific predictions. Any principles specific enough to ground predictions fail to be invariant.",
+      "consistency": "This is the invariant thesis\u2014a fundamental dilemma for economics",
+      "development": "There is a trade-off between universality and specificity. Truly universal principles are vacuous; specific principles are not universal.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-021"
+    },
+    {
+      "title": "Cultural Stability Is Not Economic Equilibrium",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VII",
+      "thesis": "Perhaps there is equilibrium in the sense of cultural or institutional stability. Japan today is very different from Japan 200 years ago technologically, but arguably maintains cultural continuity. This is true but irrelevant. The relevant question is whether there are monetary/market equilibria in the technical sense required by economic models\u2014stable states to which systems converge and around which fluctuations are bounded.",
+      "consistency": "Cultural continuity is compatible with radical economic unpredictability",
+      "development": "The very notion of 'equilibrium' in economics has been systematically confused with ordinary-language notions of stability, tradition, or persistence.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-022"
+    },
+    {
+      "title": "Economic Equilibrium Is a Mathematical Idealization With No Empirical Referent",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VII",
+      "thesis": "When economists speak of equilibrium, they mean something technical: a state where no agent has an incentive to change behavior, where markets clear, where the system has no internal tendency to change. This is a mathematical idealization with no empirical referent in actual economies.",
+      "consistency": "The technical notion of equilibrium does not correspond to anything in reality",
+      "development": "Economic equilibrium is a useful fiction for mathematical tractability, not a description of actual economic states.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-023"
+    },
+    {
+      "title": "Economics Can Offer Truisms and Rough Generalizations, Not Specific Predictions",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "The hard question is: Given that any large-scale society is predictable in some respects and unpredictable in others, what is the actual predictive scope of economics? Economics can offer truisms and rough generalizations. It cannot offer the kind of specific, quantitative, time-indexed predictions that would justify its scientific pretensions.",
+      "consistency": "We must distinguish trivial from substantive predictions",
+      "development": "This requires distinguishing: (1) Trivial predictions: 'If you double the money supply, prices will eventually rise' (but when? by how much? with what distributional effects?), (2) Structural predictions: 'Market economies will exhibit business cycles' (but of what amplitude, frequency, or character?), (3) Specific predictions: 'The S&P 500 will be at X in 12 months' (demonstrably impossible).",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-024"
+    },
+    {
+      "title": "Economics Excels at Ex Post Rationalization, Fails at Ex Ante Prediction",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "The discipline excels at ex post rationalization ('Here's why the crisis happened') and fails at ex ante prediction ('Here's what will happen'). This is the signature of a non-predictive enterprise.",
+      "consistency": "The pattern of success in hindsight and failure in foresight reveals the discipline's true nature",
+      "development": "A genuinely predictive science should succeed at prediction before the fact, not merely at explanation after the fact.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-025"
+    },
+    {
+      "title": "Formal Economic Models Are Systematically Misleading",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "If this analysis is correct, formal economic models are not 'approximately true' or 'useful idealizations'\u2014they are systematically misleading, encoding false assumptions about the nature of economic systems.",
+      "consistency": "The models are not merely imperfect but fundamentally misguided",
+      "development": "The models presuppose closed systems, non-reflexive agents, stable ontologies, and convergence to equilibrium\u2014all of which are false.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-026"
+    },
+    {
+      "title": "Econometrics Cannot Solve the Conceptual Problem",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Econometrics cannot solve the problem through better data or methods. The problem is conceptual, not empirical.",
+      "consistency": "No amount of data can overcome a category mistake",
+      "development": "If you are applying the wrong kind of methods to the wrong kind of system, more sophisticated application of those methods will not help.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-027"
+    },
+    {
+      "title": "Economics Should Reconceive Itself as Historical and Interpretive",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Economics should reconceive itself not as a predictive science but as a historical and interpretive discipline, more akin to evolutionary biology or political history than to physics.",
+      "consistency": "This would align the discipline's methods with the nature of its objects",
+      "development": "Rather than seeking timeless laws, economics should focus on understanding particular historical trajectories, institutional forms, and evolutionary dynamics.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-028"
+    },
+    {
+      "title": "Policy Based on Economic Predictions Is Epistemically Ungrounded",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Policy based on economic predictions is epistemically ungrounded. We can make reasonable judgments based on experience and rough heuristics, but we cannot base policy on the kind of precise quantitative predictions economics claims to offer.",
+      "consistency": "If economics cannot predict, economic policy cannot be science-based in the usual sense",
+      "development": "This does not mean policy is impossible, only that it cannot claim the kind of scientific warrant economists typically invoke.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-029"
+    },
+    {
+      "title": "The Mathematization of Economics Has Been a Wrong Turn",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "The mathematization of economics has been a wrong turn\u2014not because mathematics is bad, but because it encourages the false belief that economies are the kinds of systems that can be captured in timeless mathematical laws.",
+      "consistency": "Mathematics is appropriate for closed, law-governed systems, not open, evolutionary ones",
+      "development": "The problem is not mathematics per se but the assumption that economic systems have the kind of structure that mathematical formalization presupposes.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-030"
+    },
+    {
+      "title": "Economics Attempts to Study Open, Reflexive, Emergent, Path-Dependent Systems with Methods for Closed, Non-Reflexive, Non-Emergent Systems",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "The discipline of economics, in its contemporary scientized form, attempts to study systems that are open (no clear boundary), reflexive (self-aware and prediction-responsive), emergent (constantly producing novelty), path-dependent (historically conditioned), and evolutionary (ontologically fluid). It attempts to study these systems using methods appropriate to systems that are closed (well-bounded), non-reflexive (objects unaware of predictions about them), non-emergent (behavior determined by fixed laws), path-independent (ahistorical), and structural (ontologically stable).",
+      "consistency": "This is the fundamental category mistake",
+      "development": "The mismatch between the nature of the object and the character of the methods is total.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-031"
+    },
+    {
+      "title": "The Category Mistake Is Not Correctable",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "This is not a correctable error. It is a category mistake. The predictive failure of economics is not contingent\u2014it is necessary, given what economies are and what economics attempts to do.",
+      "consistency": "The problem is structural, not accidental",
+      "development": "You cannot fix the problem by improving models, gathering more data, or refining methods. The problem lies in the very attempt to apply predictive-scientific methods to intrinsically unpredictable systems.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-032"
+    },
+    {
+      "title": "The Question Is Not Whether Economics Will Succeed But Whether We Will Admit It Cannot",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "The question is not whether economics will eventually succeed in becoming predictive. The question is whether we will continue to pretend that it already is.",
+      "consistency": "This is a call for intellectual honesty",
+      "development": "Rather than continuing the pretense that economics is a predictive science, we should acknowledge its actual nature and capabilities.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-033"
+    },
+    {
+      "title": "Predictive Laws Require Non-Reflexive Objects",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "For stable predictive laws to exist, the objects of study must not systematically alter their behavior in response to predictions about them. Planets do not change orbits when we predict their positions. Economic agents do change behavior when they learn economic predictions.",
+      "consistency": "This is why natural science can be predictive while social science faces inherent limits",
+      "development": "The reflexivity of economic agents is not a contingent feature that might be eliminated but a constitutive feature of conscious, knowledge-responsive beings.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-034"
+    },
+    {
+      "title": "Economic Predictions Are Self-Undermining",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "Any economic prediction, once known to market participants, changes the conditions under which it was made. The prediction undermines itself.",
+      "consistency": "This is not a practical difficulty but a logical impossibility",
+      "development": "If I predict asset X will rise, agents buy X, changing the conditions. If I predict asset X will fall, agents sell X, again changing conditions. The prediction cannot remain valid once disseminated.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-035"
+    },
+    {
+      "title": "Genuine Novelty Cannot Be Predicted Even in Principle",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "Emergent phenomena are, by definition, not determined by prior states. You cannot predict what does not yet exist in any form. This is not a matter of insufficient data or computational power.",
+      "consistency": "The unpredictability of emergence is logical, not empirical",
+      "development": "Consider the proposition that you cannot predict the invention of the smartphone from knowledge of 1950s economies. The very concept did not exist. There was nothing to predict.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-036"
+    },
+    {
+      "title": "Economies Are Structurally Innovative, Not Occasionally Surprising",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "The economy is not occasionally surprising; it is structurally innovative. Constant emergence is a defining feature of economic systems.",
+      "consistency": "This distinguishes economics from physics, where emergence is exceptional",
+      "development": "Physics studies domains where novelty is rare. Economics studies a domain where novelty is constant. This difference is decisive for predictive capability.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-037"
+    },
+    {
+      "title": "Time-Invariant Laws Require Ontological Stability",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "If the basic categories of your domain are not stable, you cannot write laws that remain valid across time. Economics attempts to write laws for a domain where the basic ontology is fluid.",
+      "consistency": "Ontological fluidity precludes timeless laws",
+      "development": "What counts as 'money', 'capital', 'labor', 'a firm', 'a market'\u2014all these categories have changed radically over time and will continue to change. Laws formulated in terms of current categories will not apply to future forms.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-038"
+    },
+    {
+      "title": "Path-Dependency Means Identical Present Conditions Can Produce Different Futures",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "Economies are path-dependent: their current state is a function not just of present conditions but of the entire historical trajectory by which they arrived there. Identical present conditions reached via different paths will produce different futures.",
+      "consistency": "Path-dependency violates the assumption that current state determines future evolution",
+      "development": "If two economies have identical GDP, inflation, unemployment, etc., but different histories, they will evolve differently. This makes prediction from present conditions impossible.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-039"
+    },
+    {
+      "title": "The Rules of Economic Systems Themselves Evolve",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "You cannot predict evolution because there is no fixed reference frame. The 'rules' themselves evolve.",
+      "consistency": "Evolving rules mean no meta-rules can govern the evolution",
+      "development": "In physics, the laws of nature do not change. In economics, the 'laws' (institutional arrangements, behavioral norms, market structures) are constantly evolving. There are no fixed laws governing this evolution.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-040"
+    },
+    {
+      "title": "New Technology Is Neither Purely Endogenous Nor Purely Exogenous",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section V",
+      "thesis": "Is the existence of new technology endogenous or exogenous to 'the economy'? It is produced by economic agents, using economic resources, in response to economic incentives. Yet it represents genuine novelty\u2014something that did not exist within the prior economic system.",
+      "consistency": "The question is malformed because the economy has no clear boundary",
+      "development": "Human creativity, technological innovation, political decisions, cultural shifts\u2014all both shape and are shaped by economic dynamics. They cannot be classified as simply inside or outside the economy.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-041"
+    },
+    {
+      "title": "Open Systems Lack the Boundaries Required for Endogenous/Exogenous Distinctions",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section V",
+      "thesis": "The endogenous/exogenous distinction presupposes a well-defined system boundary. Open systems lack such boundaries.",
+      "consistency": "Without clear boundaries, the distinction collapses",
+      "development": "What is the boundary of 'the economy'? Geography? Certain types of transactions? Certain institutions? Any boundary you draw will be arbitrary and permeable.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-042"
+    },
+    {
+      "title": "Universal Principles Are Analytically Sterile",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Yes, all large-scale societies exhibit hierarchy. This tells us nothing about what forms that hierarchy will take, how rigid or fluid it will be, what the relevant status dimensions are, or how it will interact with other social structures. It is an invariant so abstract as to be analytically sterile.",
+      "consistency": "Extreme generality purchases emptiness",
+      "development": "To say 'all economies exhibit exchange' is true but useless. It tells us nothing about what will be exchanged, at what rates, under what conditions, with what effects.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-043"
+    },
+    {
+      "title": "Scarcity and Opportunity Cost Are Tautologies",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Scarcity and opportunity cost are true by definition. Scarcity just means resources are finite relative to wants. Opportunity cost just means choosing X means forgoing Y. These are tautological\u2014they cannot be false and therefore tell us nothing substantive about actual economies.",
+      "consistency": "Tautologies are uninformative",
+      "development": "A principle that cannot be false cannot explain anything. Tautologies are useless for prediction.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-044"
+    },
+    {
+      "title": "Some Purported Economic Invariants Are Anthropological, Not Economic",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VI",
+      "thesis": "Hierarchy, exchange, and specialization are features of human societies generally, not specifically of 'economies'. They are anthropological universals, not economic laws.",
+      "consistency": "Misidentifying anthropological facts as economic laws is a category error",
+      "development": "If a feature is universal to human societies, it is not distinctively economic. Economics must identify specifically economic regularities, not general features of social life.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-045"
+    },
+    {
+      "title": "Equilibrium Has Been Confused With Stability, Tradition, or Persistence",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VII",
+      "thesis": "The very notion of 'equilibrium' in economics has been systematically confused with ordinary-language notions of stability, tradition, or persistence.",
+      "consistency": "This confusion allows false claims of equilibrium",
+      "development": "When we observe that Japan maintains cultural continuity, this does not mean Japanese markets are in equilibrium in the technical economic sense. The terms are being equivocated.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-046"
+    },
+    {
+      "title": "Technical Equilibrium Requires No Incentive to Change Behavior",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VII",
+      "thesis": "When economists speak of equilibrium, they mean something technical: a state where no agent has an incentive to change behavior, where markets clear, where the system has no internal tendency to change.",
+      "consistency": "This technical definition is never satisfied in actual economies",
+      "development": "Real economies are always in flux. Agents always have incentives to change behavior. Markets do not clear in the technical sense. The economy always has internal tendencies to change.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-047"
+    },
+    {
+      "title": "Trivial Predictions Do Not Justify Scientific Pretensions",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "Economics can make trivial predictions like 'If you double the money supply, prices will eventually rise.' But these do not justify the discipline's scientific pretensions because they do not answer the crucial questions: when? by how much? with what distributional effects?",
+      "consistency": "Vague predictions that could be true under almost any outcome are not genuinely predictive",
+      "development": "A prediction that lacks time-indexing, quantitative precision, and distributional specificity can be 'confirmed' by nearly any empirical outcome and therefore predicts nothing.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-048"
+    },
+    {
+      "title": "Structural Predictions Lack the Specificity Required for Scientific Prediction",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "Economics can make structural predictions like 'Market economies will exhibit business cycles.' But these lack the specificity required for scientific prediction: of what amplitude? what frequency? what character? These questions cannot be answered in advance.",
+      "consistency": "Qualitative predictions without quantitative specificity are not scientific predictions",
+      "development": "To predict 'there will be cycles' without specifying their parameters is like predicting 'the weather will change' without saying when or how. It is too vague to be useful.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-049"
+    },
+    {
+      "title": "Specific Economic Predictions Are Demonstrably Impossible",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "Specific predictions like 'The S&P 500 will be at X in 12 months' are demonstrably impossible. No economic theory has ever reliably produced such predictions.",
+      "consistency": "The track record of failure is overwhelming",
+      "development": "If specific prediction were possible, economists would be able to profit systematically from their knowledge. They cannot. This is decisive evidence against the possibility of specific economic prediction.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-050"
+    },
+    {
+      "title": "Success at Ex Post Rationalization Is Not Success at Science",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "The discipline excels at ex post rationalization ('Here's why the crisis happened') and fails at ex ante prediction ('Here's what will happen'). This is the signature of a non-predictive enterprise.",
+      "consistency": "Genuine science predicts before the fact, not merely explains after",
+      "development": "Anyone can explain events after they occur. Genuine predictive power requires anticipating events before they happen. Economics systematically fails this test.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-051"
+    },
+    {
+      "title": "Economic Models Encode False Assumptions About System Nature",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Formal economic models are not 'approximately true' or 'useful idealizations'\u2014they are systematically misleading, encoding false assumptions about the nature of economic systems: that they are closed, non-reflexive, governed by stable laws, and convergent to equilibrium.",
+      "consistency": "The assumptions are not approximately true but categorically false",
+      "development": "An idealization can be useful if it captures the essential features while simplifying inessential ones. But if it gets the essential features wrong\u2014treating open systems as closed, reflexive systems as non-reflexive\u2014it is not a useful idealization but a misleading fiction.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-052"
+    },
+    {
+      "title": "Better Data Cannot Solve Category Mistakes",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Econometrics cannot solve the problem through better data or methods. The problem is conceptual, not empirical. No amount of data can overcome a category mistake.",
+      "consistency": "Empirical refinement cannot fix conceptual errors",
+      "development": "If you are using a thermometer to measure electric current, gathering more temperature readings will not help. You need a voltmeter. Similarly, if you are using methods appropriate for closed systems to study open systems, more data will not help.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-053"
+    },
+    {
+      "title": "Economics Should Be Historical and Interpretive Like Evolutionary Biology",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Economics should reconceive itself not as a predictive science but as a historical and interpretive discipline, more akin to evolutionary biology or political history than to physics.",
+      "consistency": "This would align methods with the nature of the object",
+      "development": "Evolutionary biology is a highly developed science without being predictive. It explains historical trajectories, identifies patterns, and offers insight without claiming to predict future species. Economics could do the same.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-054"
+    },
+    {
+      "title": "Economic Policy Cannot Claim Scientific Warrant",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Policy based on economic predictions is epistemically ungrounded. We can make reasonable judgments based on experience and rough heuristics, but we cannot base policy on the kind of precise quantitative predictions economics claims to offer.",
+      "consistency": "If economics is not predictive, economic policy cannot be science-based",
+      "development": "This does not mean policy is impossible, only that it cannot claim the kind of scientific warrant economists typically invoke. Policy becomes more like prudential judgment than applied science.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-055"
+    },
+    {
+      "title": "Mathematics Presupposes Structure That Economic Systems Lack",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "The mathematization of economics has been a wrong turn\u2014not because mathematics is bad, but because it encourages the false belief that economies are the kinds of systems that can be captured in timeless mathematical laws. The problem is not mathematics per se but the assumption that economic systems have the kind of structure that mathematical formalization presupposes.",
+      "consistency": "Mathematical formalization requires stable structure",
+      "development": "Mathematics is the language of structure. If the domain lacks stable structure\u2014if ontologies shift, if rules evolve, if novelty is constant\u2014then mathematical formalization will be misleading rather than illuminating.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-056"
+    },
+    {
+      "title": "The Mismatch Between Economic Objects and Economic Methods Is Total",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "Economics attempts to study systems that are open, reflexive, emergent, path-dependent, and evolutionary using methods appropriate for systems that are closed, non-reflexive, non-emergent, path-independent, and structural. The mismatch between the nature of the object and the character of the methods is total.",
+      "consistency": "Every essential feature of economic systems is incompatible with the methods used",
+      "development": "This is not a matter of one or two problematic assumptions. Every core assumption of economic methodology is false to the nature of economic systems.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-057"
+    },
+    {
+      "title": "Predictive Failure Is Necessary, Not Contingent",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "The predictive failure of economics is not contingent\u2014it is necessary, given what economies are and what economics attempts to do. This is not a correctable error. It is a category mistake.",
+      "consistency": "The failure is structural, not accidental",
+      "development": "You cannot fix the problem by improving models, gathering more data, or refining methods. The problem lies in the very attempt to apply predictive-scientific methods to intrinsically unpredictable systems.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-058"
+    },
+    {
+      "title": "We Must Choose Between Honesty and Pretense About Economics",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section X",
+      "thesis": "The question is not whether economics will eventually succeed in becoming predictive. The question is whether we will continue to pretend that it already is.",
+      "consistency": "This is a call for intellectual honesty about the discipline's nature and limits",
+      "development": "Rather than maintaining the fiction that economics is a predictive science like physics, we should acknowledge what it actually is: a historically-informed interpretive discipline that can offer insight and rough generalizations but not precise predictions.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-059"
+    },
+    {
+      "title": "George Soros's Reflexivity Thesis Applied to All Economic Systems",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section II",
+      "thesis": "George Soros identified reflexivity in financial markets: participants' beliefs influence outcomes, which in turn influence beliefs, creating feedback loops that prevent stable equilibrium. This applies not just to financial markets but to all economic systems.",
+      "consistency": "Reflexivity is not a special feature of finance but a general feature of systems with conscious agents",
+      "development": "Soros's insight extends beyond markets to economies as a whole: economic agents respond to economic theories, models, and predictions, altering the very phenomena those theories attempt to explain.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-060"
+    },
+    {
+      "title": "Physics-Envy Has Misled Economics",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Economics has suffered from physics-envy: the desire to achieve the precision, predictive power, and mathematical elegance of physics. This aspiration is misguided because economic systems are fundamentally unlike physical systems.",
+      "consistency": "The aspiration to be like physics has led economics astray",
+      "development": "Not all domains permit the kind of knowledge physics achieves. Recognizing this is not defeatism but realism. Economics would be more valuable if it abandoned physics-envy and accepted its actual nature.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-061"
+    },
+    {
+      "title": "Closed Systems Have Well-Defined Boundaries; Open Systems Do Not",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "A closed system is one whose behavior is determined by internal dynamics and stable laws, with well-defined boundaries separating it from its environment. An open system lacks such boundaries; it is constitutively entangled with its environment.",
+      "consistency": "Economies are paradigmatic open systems",
+      "development": "Where does 'the economy' end and 'society' or 'culture' or 'politics' begin? There is no non-arbitrary answer. This makes economic systems fundamentally unlike the closed systems physics studies.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-062"
+    },
+    {
+      "title": "Equilibrium Models Assume Convergence; Real Economies Diverge",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "Equilibrium models assume that after a perturbation, the system will converge back to a stable state. Real economies exhibit divergence: small changes can lead to radically different outcomes (path-dependency, increasing returns, network effects).",
+      "consistency": "Convergence vs. divergence is the key difference",
+      "development": "In equilibrium models, the system has a natural resting state. In real economies, there is no such state. The system is in constant flux, with no attractor toward which it tends.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-063"
+    },
+    {
+      "title": "Rational Optimization Assumes Stable Preferences and Environments",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "The assumption that agents optimize (rational utility maximization) presupposes that preferences are stable and environments are predictable. But in reflexive, emergent systems, both preferences and environments are constantly shifting.",
+      "consistency": "Optimization requires stability; economies lack stability",
+      "development": "If I do not know my future preferences (because I will be a different person) and I do not know future environments (because genuine novelty will emerge), I cannot optimize in the technical sense.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-064"
+    },
+    {
+      "title": "Exogenous Shocks Presuppose System Boundaries",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section I",
+      "thesis": "The concept of 'exogenous shock' presupposes that we can distinguish what is inside the system from what is outside. For open systems without clear boundaries, this distinction is incoherent.",
+      "consistency": "Without boundaries, nothing is clearly exogenous",
+      "development": "Every purported 'shock' can be traced to internal system dynamics. The 2008 financial crisis was not an exogenous shock but an endogenous product of the financial system itself.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-065"
+    },
+    {
+      "title": "Complex Systems Literature Confirms Constant Emergence in Economies",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "Work from the Santa Fe Institute and complexity theory confirms that economies are complex adaptive systems characterized by constant emergence, self-organization, and evolution. These features are incompatible with equilibrium-based modeling.",
+      "consistency": "Complexity theory supports the impossibility thesis",
+      "development": "Brian Arthur's work on increasing returns and path-dependence, Herbert Simon's on bounded rationality, and the general complex systems literature all point to the inadequacy of equilibrium economics.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-066"
+    },
+    {
+      "title": "Institutions, Technologies, and Practices Constitute Economic Ontology",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IV",
+      "thesis": "The ontology of economics\u2014what counts as money, capital, labor, firms, markets\u2014is constituted by institutions, technologies, and social practices. These are not stable but constantly evolving.",
+      "consistency": "Ontological evolution precludes timeless laws",
+      "development": "In the 18th century, 'capital' meant something very different than it does today. In the 22nd century, it will mean something different still. Laws formulated in terms of current categories will not apply.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-067"
+    },
+    {
+      "title": "The Endogenous Growth of Knowledge Undermines Predictive Economics",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section III",
+      "thesis": "New knowledge\u2014scientific discoveries, technological innovations, social insights\u2014emerges endogenously from economic activity. But the content of future knowledge cannot be predicted (if it could, we would already have it). Therefore, economic futures cannot be predicted.",
+      "consistency": "Unpredictable knowledge growth makes economic prediction impossible",
+      "development": "Economic models cannot incorporate future technologies because those technologies do not yet exist. But future technologies will radically alter economic conditions. Therefore, models cannot predict future conditions.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-068"
+    },
+    {
+      "title": "Economic Crises Reveal the Discipline's Predictive Failure",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section VIII",
+      "thesis": "No major economic crisis has ever been predicted by mainstream economics before it occurred. The 2008 financial crisis, the stagflation of the 1970s, the Great Depression\u2014all caught the discipline by surprise. This is not bad luck but structural incapacity.",
+      "consistency": "The track record is one of consistent failure",
+      "development": "If economics were a predictive science, it should be able to anticipate major disruptions. That it systematically fails to do so reveals that it is not predictive.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-069"
+    },
+    {
+      "title": "Econometric Models Fit Past Data Without Predicting Future Data",
+      "source": "KUC-2025-11-REFLEX: The Impossibility of Economics as Predictive Science, Section IX",
+      "thesis": "Econometric models are fitted to historical data and appear to 'work' for that data. But they systematically fail to predict out-of-sample. This is because they capture historical patterns that do not persist (due to reflexivity, emergence, and path-dependency).",
+      "consistency": "In-sample fit does not imply out-of-sample prediction",
+      "development": "Consider the proposition that you can fit a curve to any dataset with enough parameters. But this does not mean the curve will predict future data. Econometrics produces elegant curve-fitting, not genuine prediction.",
+      "domain": "Philosophy of Economics",
+      "position_id": "ECON-REFLEX-070"
     }
   ]
 }

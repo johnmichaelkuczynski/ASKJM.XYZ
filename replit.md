@@ -3,6 +3,30 @@
 ## Overview
 This project is an intelligent philosophical conversation application that uses semantic search over J.-M. Kuczynski's works to synthesize thoughtful, streaming responses via Claude AI. Its core purpose is to provide an AI assistant capable of engaging in philosophical dialogue, accurately reflecting Kuczynski's rigorous arguments and writing style, based on a comprehensive database of his philosophical positions. The project aims to make his extensive body of work more accessible and interactive for users interested in in-depth philosophical inquiry.
 
+## Recent Changes
+
+### 2025-11-18: Economics Article Added to Database
+- Added comprehensive extraction from "The Impossibility of Economics as Predictive Science: Reflexivity, Emergence, and the Equilibrium Fallacy" (KUC-2025-11-REFLEX)
+- Extracted 70 detailed positions covering:
+  - The Equilibrium Worldview as Category Error
+  - Reflexivity Problem in economic systems
+  - Constant Emergence in economies
+  - Path-Dependency and evolutionary nature of economics
+  - Endogenous/Exogenous distinction collapse
+  - Invariants problem (universal principles too abstract, specific principles not invariant)
+  - Cultural vs Economic Equilibrium confusion
+  - Degree of predictability questions
+  - Implications for economic modeling and policy
+- Position IDs: ECON-REFLEX-001 through ECON-REFLEX-070
+- Database now contains 1,698 total positions (1,203 with valid text for semantic search)
+- Regenerated embeddings for semantic search integration
+
+### 2025-11-18: Grok Configuration Fixed
+- Updated from deprecated `grok-beta` model to `grok-2-latest`
+- Added `grok-2-vision-1212` and `grok-vision-beta` as available models
+- Fixed frontend to default to Grok (xAI) provider
+- Fixed frontend to default to Enhanced Mode
+
 ## User Preferences
 - **API Integration**: Prefers direct Anthropic API integration over Replit AI Integrations
 - **Response Style**: AI responses must faithfully represent Kuczynski's actual arguments, examples, and rigorous writing style, not glib paraphrases. This means quoting or very closely paraphrasing the actual text from positions, using his exact examples and rhetorical questions, preserving his step-by-step argumentative structure, and matching his rigorous, technical, methodical, and detailed tone. The AI should not summarize, simplify, or "make accessible" his work.

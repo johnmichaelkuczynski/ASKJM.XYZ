@@ -1,0 +1,83 @@
+{
+  "id": "KUC-2025-11-REFLEX",
+  "author": "Michał Kuczyński",
+  "title": "The Impossibility of Economics as Predictive Science: Reflexivity, Emergence, and the Equilibrium Fallacy",
+  "type": "article",
+  "status": "clean-final",
+  "date_original": "2025-11-18",
+  "date_added": "2025-11-18",
+  "filename": "EMERGENCY AND REFLEXIVITY CLEAN ARTICLE FOR DATABASE.txt",
+  "language": "English",
+  "length_pages": null,
+  "length_words": 2420,
+  "core_thesis": "Mainstream economics is fundamentally incapable of being a predictive science because economic systems are open, reflexive, constantly emergent, and path-dependent. The discipline’s equilibrium-based methodology constitutes a category mistake that cannot be corrected within its current paradigm.",
+  
+  "key_concepts": [
+    "reflexivity",
+    "emergence",
+    "constant emergence",
+    "path-dependency",
+    "open vs closed systems",
+    "equilibrium worldview",
+    "category mistake",
+    "endogenous/exogenous fallacy",
+    "evolutionary analogy",
+    "invariants problem"
+  ],
+
+  "main_sections": [
+    { "number": "I",   "title": "The Equilibrium Worldview as Category Error" },
+    { "number": "II",  "title": "The Reflexivity Problem" },
+    { "number": "III", "title": "The Emergence Problem" },
+    { "number": "IV",  "title": "Path-Dependency and the Evolutionary Analogy" },
+    { "number": "V",   "title": "The Pseudo-Distinction Between Endogenous and Exogenous" },
+    { "number": "VI",  "title": "The Search for Invariants" },
+    { "number": "VII", "title": "The Cultural-Economic Equilibrium Confusion" },
+    { "number": "VIII","title": "The Degree-of-Predictability Question" },
+    { "number": "IX",  "title": "Implications" },
+    { "number": "X",   "title": "Conclusion" }
+  ],
+
+  "crucial_quotes": [
+    "No stable predictive laws can govern systems whose components systematically respond to predictions about those systems.",
+    "All disciplines can tolerate some emergence from their objects of study. No discipline can tolerate constant emergence.",
+    "A discipline cannot be predictive when its domain constantly produces phenomena whose existence could not have been anticipated from the discipline’s existing theoretical resources.",
+    "Any invariants general enough to be true of all economic systems are too abstract to ground specific predictions. Any principles specific enough to ground predictions fail to be invariant.",
+    "The predictive failure of economics is not contingent—it is necessary, given what economies are and what economics attempts to do."
+  ],
+
+  "tags": [
+    "critique-of-economics",
+    "reflexivity",
+    "emergence",
+    "open-systems",
+    "Soros-influence",
+    "anti-equilibrium",
+    "philosophy-of-economics",
+    "predictive-impossibility",
+    "category-mistake",
+    "evolutionary-economics",
+    "post-mainstream"
+  ],
+
+  "related_works_kuczynski": [
+    "The Four Fallacies of Economics",
+    "Why Economics Failed",
+    "The Reflexivity Trap (forthcoming?)"
+  ],
+
+  "related_external": [
+    "George Soros – The Alchemy of Finance (reflexivity)",
+    "Brian Arthur – Increasing Returns and Path Dependence",
+    "Herbert Simon – bounded rationality",
+    "Complex systems literature (Santa Fe Institute)"
+  ],
+
+  "summary_short": "Kuczyński’s strongest and most systematic argument yet that economics cannot be a predictive science because of reflexivity, constant emergence, and the open-system nature of economies.",
+
+  "summary_medium": "The paper demolishes the equilibrium paradigm by showing that economies are open, reflexive, and constantly emergent systems. Reflexive agents change the system when they become aware of predictions; genuine novelty arises continuously; path-dependence and evolving ontology make timeless laws impossible. The endogenous/exogenous distinction collapses, and purported invariants are either tautological or too abstract. Economics must abandon physics-envy and accept its status as a historical-interpretive discipline rather than a predictive science.",
+
+  "full_text_available": true,
+  "full_text_source": "EMERGENCY AND REFLEXIVITY CLEAN ARTICLE FOR DATABASE.txt",
+  "notes": "Marked by author as latest major statement on the impossibility thesis. Extremely clean final version intended for database/archival use."
+}

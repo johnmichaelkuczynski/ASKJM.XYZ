@@ -85,9 +85,13 @@ class SemanticSearch:
             print(f"Loading pre-computed embeddings from {embeddings_path}...")
             with open(embeddings_path, 'rb') as f:
                 embeddings_data = pickle.load(f)
-                # Handle both tuple format (positions, embeddings) and array-only format
-                if isinstance(embeddings_data, tuple):
+                # Handle dict format (with embeddings, position_ids, model keys)
+                if isinstance(embeddings_data, dict):
+                    self.embeddings = embeddings_data['embeddings']
+                # Handle tuple format (positions, embeddings)
+                elif isinstance(embeddings_data, tuple):
                     _, self.embeddings = embeddings_data
+                # Handle array-only format
                 else:
                     self.embeddings = embeddings_data
 
