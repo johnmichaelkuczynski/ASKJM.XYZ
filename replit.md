@@ -5,6 +5,34 @@ This project is an intelligent philosophical conversation application that uses 
 
 ## Recent Changes
 
+### 2025-11-19: Comprehensive Publications Corpus Added to Database
+- Added 38 new philosophical positions from 100+ Kuczynski publications (1997-2025)
+- Covers major journal articles, books, and dissertation work
+- Key additions:
+  - **Language of Thought**: LOT-001 through LOT-003 (presentations vs representations, vicious regress argument)
+  - **Self-Knowledge**: SELF-001, SELF-002 (object-awareness vs truth-awareness distinction)
+  - **Mind-Body Problem**: MAT-001 through MAT-003 (qualia argument, data-spaces argument, theoretical identification)
+  - **Explanatory Gap**: EXPL-001, EXPL-002 (ontological vs epistemological priority)
+  - **Emergence**: EMERG-001 (ambiguity of emergence claims)
+  - **Causation**: CAUS-001 through CAUS-003 (causation as persistence, spacetime supervenes on causation)
+  - **Epistemology**: KNOW-001 (knowledge as meta-knowledge about anomaly generation)
+  - **Legal Philosophy**: LAW-001, LAW-002 (laws as assurances of rights, international law)
+  - **Emotions**: EMOT-001 (emotions as judgments from egocentric frame)
+  - **Logic & AI**: LOGIC-001 (classical logic fails for real reasoning)
+  - **Paradoxes**: PARA-001, PARA-002 (non-revisionist solutions, Sorites via implicit comparatives)
+  - **Modality**: MOD-001, COUNT-001 (Kripke critique, counterfactuals)
+  - **Language**: LANG-001, LANG-002 (literal vs intuitive meaning, anti-Russellian descriptions)
+  - **Computational Mind**: COMP-001, COMP-002 (form equivocation, simulation vs thinking)
+  - **Kant**: KANT-001, KANT-002 (non-trivial analytics fix system, God as ground not creator)
+  - **Wittgenstein**: WITT-001 (language not essential for thought)
+  - **Intentionalism**: INT-001 (qualia content not fixed)
+  - **Justice**: JUST-001 (Rawls critique)
+  - **Psychology**: PSY-001 through PSY-004 (aggression, psychopathy, paranoia, neuroses)
+  - **Nietzsche**: NIET-001 (slave vs master morality)
+  - **Paradox of Analysis**: ANAL-001 (solution via grasping vs knowing distinction)
+- Database now contains 1,760 total positions (631 with valid text for semantic search)
+- Regenerated embeddings for semantic search integration
+
 ### 2025-11-19: Secure Internal Knowledge API Endpoint Created
 - Created `/api/internal/knowledge` POST endpoint for external system integration
 - **Authentication**: Requires `ZHI_PRIVATE_KEY` in Authorization header (supports both `Bearer <token>` and direct token)

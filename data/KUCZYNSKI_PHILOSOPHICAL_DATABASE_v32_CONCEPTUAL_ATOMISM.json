@@ -20573,6 +20573,348 @@
       "development": "Unlike you, Smith is personally acquainted with Argo and knows some true proposition of the form: some person x uniquely has phi and 'Argo' refers to x. In the course of your conversation, you hear Smith make statements like 'Argo was a cad'. On each occasion, there was exactly one person who Smith was referring to. You know this merely by virtue of overhearing Smith's statement. So you pick up knowledge of some claim like: on occasion t, there was exactly one person who Smith described as being a cad, and 'Argo' refers to x. The UID might be thin \u2013 the person Smith was referring to by Argo on occasion t \u2013 but it is a UID nonetheless.",
       "domain": "Philosophy of Language",
       "position_id": "UID-009"
+    },
+    {
+      "title": "Sense-Perceptions Are Presentations, Not Representations",
+      "source": "KUC-2002-LOT: Language of Thought",
+      "thesis": "Sense-perceptions do not have to be deciphered if their contents are to be uploaded, the reason being that they are presentations, not representations. Linguistic expressions do have to be deciphered if their contents are to be uploaded, the reason being that they are representations, not presentations.",
+      "consistency": "Fundamental distinction in philosophy of mind",
+      "development": "This distinction undermines the Language of Thought hypothesis. If thought were linguistic, it would require infinite regress of interpretation.",
+      "domain": "Philosophy of Mind",
+      "position_id": "LOT-001"
+    },
+    {
+      "title": "The Language of Thought Hypothesis Creates Vicious Regress",
+      "source": "KUC-2002-LOT: Language of Thought",
+      "thesis": "It is viciously regressive to suppose that information-bearing mental entities are categorically in the nature of representations, as opposed to presentations, and it is therefore incoherent to suppose that thought is mediated by expressions or, therefore, by linguistic entities.",
+      "consistency": "Core anti-LOT argument",
+      "development": "If thoughts were linguistic symbols requiring interpretation, we'd need a homunculus to read them, which would itself need thoughts (linguistic symbols), requiring another homunculus ad infinitum.",
+      "domain": "Philosophy of Mind",
+      "position_id": "LOT-002"
+    },
+    {
+      "title": "Symbols Must Be Decrypted; Thoughts Need Not Be",
+      "source": "KUC-2005-SYMBOL: The concept of a symbol",
+      "thesis": "Linguistic expressions must be decrypted if they are to transmit information. Thoughts need not be decrypted if they are to transmit information. Therefore thought-processes do not consist of linguistic expressions: thought is not linguistic.",
+      "consistency": "Follows from LOT-001 and LOT-002",
+      "development": "A consequence is that thought is not computational, given that a computation is the operationalization of a function that assigns one expression to some other expression.",
+      "domain": "Philosophy of Mind",
+      "position_id": "LOT-003"
+    },
+    {
+      "title": "Object-Awareness vs Truth-Awareness Distinction Is Fundamental",
+      "source": "KUC-2001-SELF: Self-knowledge",
+      "thesis": "We are aware of truths and also of states of affairs. My awareness of the tightness of my shoes\u2014not, be it emphasized, of the corresponding truth, but of the shoe-related mass-energy-distribution underlying that truth\u2014is an instance, not of truth-awareness, but of fact-awareness or, as I prefer to put it, object-awareness. The distinction between truth-awareness, which is conceptual, and object-awareness, which is non-conceptual, is often overlooked.",
+      "consistency": "Critical for understanding self-knowledge",
+      "development": "Self-knowledge originally consists of object-awarenesses, only later taking the form of truth-awarenesses. Failure to distinguish these has led many to advocate the false contention that self-conscious creatures can be categorically mistaken as to what they are consciously experiencing.",
+      "domain": "Philosophy of Mind",
+      "position_id": "SELF-001"
+    },
+    {
+      "title": "Self-Knowledge Errors Are Conceptualization Errors, Not Awareness Errors",
+      "source": "KUC-2001-SELF: Self-knowledge",
+      "thesis": "Once the distinction between object- and truth-awareness is taken into account, the mistaken judgments that people make as to their conscious conditions embody erroneous conceptualizations of veridical awarenesses of said conditions.",
+      "consistency": "Follows from object-awareness vs truth-awareness distinction",
+      "development": "We cannot be wrong about our object-awarenesses (what we're experiencing), but we can be wrong about how we conceptualize those experiences (the truths we judge about them).",
+      "domain": "Philosophy of Mind",
+      "position_id": "SELF-002"
+    },
+    {
+      "title": "Qualia Cannot Differ From How They Seem - First Argument Against Materialism",
+      "source": "KUC-2000-MAT: Two objections to materialism",
+      "thesis": "Some mental entities (namely, pains and other qualia) cannot possibly differ from how they seem to be, and since this cannot possibly be true of any non-mental entity, it follows that some mental entities are not physical.",
+      "consistency": "First anti-materialist argument",
+      "development": "This is an appearance-reality gap argument. Physical entities can always differ from how they appear. Qualia cannot. Therefore qualia are not physical.",
+      "domain": "Philosophy of Mind",
+      "position_id": "MAT-001"
+    },
+    {
+      "title": "Mental and Physical Events Occur in Different Data-Spaces - Second Argument",
+      "source": "KUC-2000-MAT: Two objections to materialism",
+      "thesis": "Even if brain-activity and mental-activity occur in the same physical space, they occur in different data-spaces: when you experience a pain, it is not given to you as occurring in the same spatial manifold as the falling of a stone or any other physical event. Mental events cannot possibly be observed as having spatial coordinates.",
+      "consistency": "Second anti-materialist argument",
+      "development": "Nothing relevantly similar to mental activity can possibly be observed to accompany anything relevantly similar to brain activity. Therefore there can be no legitimate basis for mind-brain identity claims.",
+      "domain": "Philosophy of Mind",
+      "position_id": "MAT-002"
+    },
+    {
+      "title": "Mental-Physical Identifications Are Theoretical, Never Observational",
+      "source": "KUC-2000-MAT: Two objections to materialism",
+      "thesis": "It is necessarily on theoretical grounds, as opposed to strictly experiential grounds, that mental entities are identified with physical entities. Water is legitimately believed to consist of microparticles because there is independent reason to believe entities relevantly similar to such particles are relevantly similar to water. No such grounds exist for mind-brain identity.",
+      "consistency": "Elaborates MAT-002",
+      "development": "It is not on the basis of any directly observed concomitance between molecule-activity and water-activity that we believe the former to constitute the latter. Likewise for brain and mind, but without the independent theoretical justification.",
+      "domain": "Philosophy of Mind",
+      "position_id": "MAT-003"
+    },
+    {
+      "title": "Ontological vs Epistemological Priority Creates Explanatory Gap",
+      "source": "KUC-1998-ANOM: Partial anomalousness of the mental",
+      "thesis": "Ontologically, brains are more basic than mental representations. Epistemologically, mental representations are more basic than brains and all other non-mental entities: it is, and must be, on the basis of mental representations that we know anything about non-mental entities. Since mental representations are epistemically more fundamental than brains, the former cannot possibly be explained in terms of the latter, notwithstanding that the latter are ontologically more fundamental.",
+      "consistency": "Compatible with materialism but shows explanatory limitation",
+      "development": "There is thus an explanatory gap, notwithstanding the presumptive truth of materialism. This gap is structural, not merely epistemic.",
+      "domain": "Philosophy of Mind",
+      "position_id": "EXPL-001"
+    },
+    {
+      "title": "Mind as Emergent Property Is Either False or Vacuous",
+      "source": "KUC-1999-EMERG: Is Mind an Emergent Property?",
+      "thesis": "'Mind is an emergent property of matter' is ambiguous. If it means (i) matter produces mind (like a carpenter produces a chair), it is false, since biological activity mediates mental activity and is therefore identical with or constitutive of it. If it means (ii) psychological truths are not analytic consequences of physical truths at a given time, it is vacuous, merely saying we don't currently know how to explain the mental in terms of the physical.",
+      "consistency": "Critique of emergence language",
+      "development": "Depending on how disambiguated, the claim is either false or devoid of content. It leaves open whether statements about the mental could later be reduced to physical statements.",
+      "domain": "Philosophy of Mind",
+      "position_id": "EMERG-001"
+    },
+    {
+      "title": "It Is Truths That Are Explained, Not Objects",
+      "source": "KUC-1999-EMERG: Is Mind an Emergent Property?",
+      "thesis": "It is truths that are explained, not objects. It is truths about trees, not the tree per se, that are explained: one explains why the tree is tall, why the tree can't survive if the drought continues, etc.",
+      "consistency": "Methodological point about explanation",
+      "development": "This means emergence claims must be understood as claims about derivability of statements, not about production of objects.",
+      "domain": "Philosophy of Science",
+      "position_id": "EXPL-002"
+    },
+    {
+      "title": "Causation Exists Because We Couldn't Ask About It Otherwise",
+      "source": "KUC-1997-CAUS: Solution to the Paradox of Causation",
+      "thesis": "Causation exists, since we couldn't even ask whether causation existed unless it did.",
+      "consistency": "Transcendental argument for causation",
+      "development": "The very act of inquiring presupposes causal connections between thought, language, and reality.",
+      "domain": "Metaphysics",
+      "position_id": "CAUS-001"
+    },
+    {
+      "title": "Any Given Case of Causation Is a Case of Persistence",
+      "source": "KUC-1997-CAUS: Solution to the Paradox of Causation",
+      "thesis": "Any given case of causation is a case of persistence. We tend not to become aware of instances of causation as such except when two different causal lines intersect, resulting in a breakdown of some other case of persistence, this being why we tend to regard instances of causation as fundamentally disruptive, as opposed to preservative in nature.",
+      "consistency": "Novel analysis of causation",
+      "development": "Causation is fundamentally about continuation/persistence, not disruption. We only notice it when causal lines intersect and disrupt each other.",
+      "domain": "Metaphysics",
+      "position_id": "CAUS-002"
+    },
+    {
+      "title": "Spatiotemporal Relations Supervene on Causal Relations",
+      "source": "KUC-1997-CAUS: Solution to the Paradox of Causation",
+      "thesis": "Spatiotemporal relations supervene on causal relations. The meaning of this is that spatiotemporal relations are causal relations considered in abstraction of the various specific differences holding between different kinds of causation.",
+      "consistency": "Follows from CAUS-002",
+      "development": "Space and time are derivative from causation, not the other way around. This inverts the standard view.",
+      "domain": "Metaphysics",
+      "position_id": "CAUS-003"
+    },
+    {
+      "title": "Knowledge Is Meta-Knowledge About Anomaly Generation",
+      "source": "KUC-METAKNOW: Knowledge as Metaknowledge",
+      "thesis": "Do I know that my chair won't sprout wings and fly away? I know that it would be needlessly anomaly-generative to believe that it will. Setting aside limiting-cases, what we refer to as knowing that such-and-such is really knowledge that it would be needlessly anomaly-generative to believe otherwise.",
+      "consistency": "Novel theory of knowledge",
+      "development": "What we typically refer to as knowing that such-and-such is the case is really meta-knowledge to the effect that granting such-and-such eliminates mysteries and denying it creates them.",
+      "domain": "Epistemology",
+      "position_id": "KNOW-001"
+    },
+    {
+      "title": "Laws Are Governmental Assurances of Protection of Rights",
+      "source": "KUC-2006-DISS: Moral Structure of Legal Obligation",
+      "thesis": "Laws are governmental assurances of protections of rights and the concepts of law and legal obligation must therefore be understood in moral terms.",
+      "consistency": "Core legal philosophy position",
+      "development": "Though there are many immoral laws, the concept of law itself is inherently moral. Moral principles have a 'dimension of weight' (Dworkin).",
+      "domain": "Philosophy of Law",
+      "position_id": "LAW-001"
+    },
+    {
+      "title": "There Are No True International Laws, But They Are Possible",
+      "source": "KUC-2006-DISS: Moral Structure of Legal Obligation",
+      "thesis": "Are there international laws? If not, could such laws exist? And if they could exist, would their existence necessarily be desirable? The answers are: 'no', 'yes', and 'no.'",
+      "consistency": "Follows from analysis of law",
+      "development": "International laws could exist but their existence would not necessarily be desirable. Current 'international law' is not genuine law.",
+      "domain": "Philosophy of Law",
+      "position_id": "LAW-002"
+    },
+    {
+      "title": "Emotions Are Judgments From an Egocentric Frame of Reference",
+      "source": "KUC-2016-EMOT: What are Emotions?",
+      "thesis": "Emotions are not opposed to rationality. Emotions are judgments made from an egocentric frame of reference, whereas ordinary judgments are made from a non-egocentric frame of reference.",
+      "consistency": "Cognitivist theory of emotions",
+      "development": "This reconciles the rationality of emotions with their seeming irrationality. Emotions are rational within an egocentric perspective.",
+      "domain": "Philosophy of Mind",
+      "position_id": "EMOT-001"
+    },
+    {
+      "title": "Classical Logic Fails as Model of Real Reasoning",
+      "source": "KUC-2025-AILOGIC: AI Logic vs Classical Logic",
+      "thesis": "Classical logic fails as a model of real reasoning (human or AI) because applying a logical rule requires more intelligence than direct pattern recognition.",
+      "consistency": "Recent 2025 position on logic",
+      "development": "Proposes an alternative 'System L' based on pattern-explicit recognition used by LLMs and humans. Performance vs competence-demanding reasoning.",
+      "domain": "Logic",
+      "position_id": "LOGIC-001"
+    },
+    {
+      "title": "Russell's Paradox and Liar Paradox Solvable Without Type Theory",
+      "source": "KUC-2013-PARA: Solutions to semantic antinomies",
+      "thesis": "Russell's Paradox and the Liar Paradox can be solved without type theory or any revision of classical logic.",
+      "consistency": "Non-revisionist approach to paradoxes",
+      "development": "Standard solutions require revising logic or language. Kuczynski shows they can be solved while preserving classical logic.",
+      "domain": "Logic",
+      "position_id": "PARA-001"
+    },
+    {
+      "title": "Sorites Paradox Solved Via Implicit Comparative Analysis",
+      "source": "KUC-2006-SORITES: Implicit comparatives and the Sorites",
+      "thesis": "A person with one dollar is poor. If a person with n dollars is poor, then so is a person with n+1 dollars. Therefore, a person with a billion dollars is poor. This Sorites paradox arises from failing to recognize that 'poor' is an implicit comparative.",
+      "consistency": "Novel solution to ancient paradox",
+      "development": "Most attempts to solve this paradox involve abandoning classical logic. Kuczynski's solution preserves it by analyzing vague predicates as implicitly comparative.",
+      "domain": "Logic",
+      "position_id": "PARA-002"
+    },
+    {
+      "title": "Kripke's Necessary A Posteriori Only Appears Strong by Conflating Semantics and Presemantics",
+      "source": "KUC-2010-MOD: Intensionality, Modality, Rationality",
+      "thesis": "Kripke's arguments for necessary a posteriori truths and rational acceptance of contradictions only appear strong when semantics and presemantics are conflated.",
+      "consistency": "Critique of Kripkean modal theory",
+      "development": "Distinguishing what a sentence means from how we learn what it means resolves apparent paradoxes in Kripke's system.",
+      "domain": "Metaphysics",
+      "position_id": "MOD-001"
+    },
+    {
+      "title": "Standard Analysis of Counterfactuals Makes Them Incoherent",
+      "source": "KUC-2005-COUNT: Counterfactuals",
+      "thesis": "Ordinarily counterfactuals are seen as making statements about states of affairs in merely possible or alternative worlds. Thus analyzed, nearly all counterfactuals turn out to be incoherent.",
+      "consistency": "Against possible worlds analysis",
+      "development": "Any counterfactual requires that there be a metaphysically possible world where the laws are the same as here and almost all facts are the same. This is impossible for most counterfactuals.",
+      "domain": "Logic",
+      "position_id": "COUNT-001"
+    },
+    {
+      "title": "Literal Meaning Can Diverge Without Limit From Intuitive Meaning",
+      "source": "KUC-2014-LIT: What is Literal Meaning?",
+      "thesis": "Literal meaning can diverge without limit from intuitive meaning because people are not infallible reasoners, but competence guarantees a stable literal meaning.",
+      "consistency": "Competence vs performance distinction",
+      "development": "Distinguishes competence (what sentences mean) from performance (what people think they mean). People's intuitions can be systematically wrong.",
+      "domain": "Philosophy of Language",
+      "position_id": "LANG-001"
+    },
+    {
+      "title": "Definite Descriptions Are Referring Terms, Not Quantifiers (Anti-Russell)",
+      "source": "KUC-2005-DESC: Definite descriptions",
+      "thesis": "According to Russell, 'the phi' means: 'exactly one object has phi and that object'. But if somebody asked how many kings of France there were, it would be deeply inappropriate to respond by saying 'the king of France', because the respondent appears to be presupposing what he ought to be asserting. This shows Russell's theory is wrong.",
+      "consistency": "Anti-Russellian semantics",
+      "development": "Russell's theory fails for questions and imperatives. Definite descriptions are genuine referring expressions, not disguised quantifiers.",
+      "domain": "Philosophy of Language",
+      "position_id": "LANG-002"
+    },
+    {
+      "title": "Computational Theory of Mind Equivocates on 'Form'",
+      "source": "KUC-2006-COMP: Two concepts of form",
+      "thesis": "According to the computational theory of mind, to think is to compute. But what is meant by 'compute'? The answer is: manipulating symbols driven exclusively by formal properties. But 'formal' is ambiguous between syntactic form and logical form.",
+      "consistency": "Critique of computationalism",
+      "development": "When disambiguated, either thinking is not formal (if form = syntax) or not everything formal is computational (if form = logic).",
+      "domain": "Philosophy of Mind",
+      "position_id": "COMP-001"
+    },
+    {
+      "title": "Simulating Thought Differs Categorically From Actually Thinking",
+      "source": "KUC-2006-SIM: Formal operations",
+      "thesis": "A series of representations must be semantics-driven if the members of that series are to combine into a single thought: where semantics is not operative, there is at most a series of disjoint representations that add up to nothing true or false, and therefore do not constitute a thought at all.",
+      "consistency": "Argument against AI thinking",
+      "development": "There is necessarily a gulf between simulating thought and actually thinking. Computers manipulate syntax, not semantics.",
+      "domain": "Philosophy of Mind",
+      "position_id": "COMP-002"
+    },
+    {
+      "title": "Kant's System Broken Because He Denied Non-Trivial Analytic Truths",
+      "source": "KUC-2006-KANT: Analogue-digital distinction",
+      "thesis": "Because Kant wrongly believed analytic truths to be categorically trivial, he was forced to regard non-trivial analytic truths as 'synthetic a priori', i.e. as both non-analytic and also as holding in virtue of the structure of the mind. Consequently, Kant's system, in its original form, is utterly broken.",
+      "consistency": "Diagnosis of Kant's error",
+      "development": "The paper shows how to fix Kant's system by recognizing non-trivial analytic truths. Once fixed, Kant's transcendental arguments become cogent.",
+      "domain": "History of Philosophy",
+      "position_id": "KANT-001"
+    },
+    {
+      "title": "Kant's Conception of God: Constitutive Not Causal Responsibility",
+      "source": "KUC-2020-KANT-GOD: Natural Law as Divine Rationality",
+      "thesis": "The essence of Kant's conception of God is that God is constitutively, as opposed to causally, responsible for spatiotemporal existence: God is responsible for the world not by creating it but by grounding it. God grounds it by virtue of being identical with it (or its noumenal substrate), with the qualification that he infuses it with his own rationality, this being manifested as natural law.",
+      "consistency": "Interpretation of Kant's theology",
+      "development": "God doesn't create the world externally; God is the rational structure of the world itself.",
+      "domain": "History of Philosophy",
+      "position_id": "KANT-002"
+    },
+    {
+      "title": "Wittgenstein Wrong: Language Not Essential for Thought",
+      "source": "KUC-2005-WITT: Can one grasp propositions?",
+      "thesis": "Wittgenstein and Brandom both say that knowledge of a language constitutes one's ability to think. Further, they say that a language is an essentially public entity. This view strips anyone of the ability to think when they first began to exist, creating an incoherent developmental story.",
+      "consistency": "Anti-Wittgensteinian position",
+      "development": "The private-language and rule-following arguments fail. One can grasp propositions without language. Language is a tool for communication, not constitutive of thought.",
+      "domain": "Philosophy of Mind",
+      "position_id": "WITT-001"
+    },
+    {
+      "title": "Intentionalism About Qualia Is False",
+      "source": "KUC-2004-INT: Arguments against intentionalism",
+      "thesis": "According to intentionalism, two experiences must have different representational contents if they have different phenomenological contents. Were this correct, the representational significance of a given affect (or qualia) would be fixed: what it represented would not be a function of the subject's beliefs, past experiences, or mental states. But this is false.",
+      "consistency": "Against intentionalist theories of perception",
+      "development": "The same phenomenal experience can represent different things depending on context, beliefs, and background knowledge. Phenomenology underdetermines content.",
+      "domain": "Philosophy of Mind",
+      "position_id": "INT-001"
+    },
+    {
+      "title": "Rawlsian Society Would Be Bureaucratic Wasteland",
+      "source": "KUC-2020-JUST: What is Justice",
+      "thesis": "According to Rawls, a just society is one that one would choose to belong to if one knew nothing as to what one's position in that society would be. Such a society would be a squalid bureaucratic wasteland, similar to the Soviet Union, and its entire structure would be a weapon for the mediocre to hold back the gifted.",
+      "consistency": "Critique of Rawls",
+      "development": "Several vigorous attempts to create societies along Rawlsian lines have been implemented, and they all failed utterly, showing how wrong Rawls' analysis is.",
+      "domain": "Political Philosophy",
+      "position_id": "JUST-001"
+    },
+    {
+      "title": "Aggression Is Frustrated Power-Lust",
+      "source": "KUC-2020-AGG: Aggression",
+      "thesis": "A number of psychologists hold that aggression is a basic instinct. The truth is that aggression is not a basic drive. Desire for power is a basic drive, and aggression is what results when that desire is frustrated. Would a creature with unlimited power that was otherwise like us have aggression?",
+      "consistency": "Psychoanalytic theory",
+      "development": "This reduces aggression to frustrated power drive, showing it's derivative not basic.",
+      "domain": "Psychology",
+      "position_id": "PSY-001"
+    },
+    {
+      "title": "Psychopathy Equals Lack of Autonomy",
+      "source": "KUC-2018-PSYCH: Psychopathy and autonomy",
+      "thesis": "There is no difference between autonomy and non-psychopathy or, equivalently, between psychopathy and non-autonomy. Someone who is non-autonomous is non-psychopathic only as long the institution that hosts him is non-psychopathic. So his non-psychopathy, being borrowed, is both weak and ultimately devoid of reality.",
+      "consistency": "Analysis of psychopathy",
+      "development": "Autonomy and non-psychopathy are the same thing. Institutional non-psychopathy is borrowed, not genuine.",
+      "domain": "Psychology",
+      "position_id": "PSY-002"
+    },
+    {
+      "title": "Paranoias Are Inverted Desires",
+      "source": "KUC-2018-PARA: Paranoias",
+      "thesis": "Paranoias are unconscious desires that are represented in consciousness as fears. In being paranoid, one unconsciously desires what one consciously fears.",
+      "consistency": "Freudian analysis",
+      "development": "Paranoia is a defense mechanism that inverts desire into fear, making the desired object seem threatening.",
+      "domain": "Psychology",
+      "position_id": "PSY-003"
+    },
+    {
+      "title": "Neuroses Contain Psychoses",
+      "source": "KUC-2018-NEUR: Neuroses",
+      "thesis": "Neuroses are secondary mental illnesses, it being their purpose to contain psychoses.",
+      "consistency": "Structural theory of mental illness",
+      "development": "Neurotic symptoms are defensive structures that prevent psychotic breakdown. They are functional adaptations.",
+      "domain": "Psychology",
+      "position_id": "PSY-004"
+    },
+    {
+      "title": "Slave vs Master Morality Distinction Is Valid, But Modern Society Isn't Slave Morality",
+      "source": "KUC-2021-NIET: Nietzsche on morality",
+      "thesis": "Nietzsche distinguishes between 'slave morality' (morality of the weak) and 'master morality' (morality of the strong). The distinction is legitimate but Nietzsche is wrong that contemporary capitalist society embodies slave morality.",
+      "consistency": "Qualified acceptance of Nietzsche",
+      "development": "Good psychology, bad sociology. The typology is real but Nietzsche misapplies it to modern commerce-based society.",
+      "domain": "Ethics",
+      "position_id": "NIET-001"
+    },
+    {
+      "title": "Paradox of Analysis Solved: Knowledge vs Grasping Distinction",
+      "source": "KUC-2003-ANAL: Paradox of Analysis",
+      "thesis": "The paradox: if one is to have questions about x, one must know x; but if one knows x, one has no questions about x. The obvious solution (one can inquire into x if one knows some but not all of x's parts) is erroneous, because it recreates the paradox for the known parts.",
+      "consistency": "Solution to meta-philosophical paradox",
+      "development": "The solution distinguishes between grasping a concept and knowing everything about it. One can grasp x while not knowing all truths involving x.",
+      "domain": "Metaphilosophy",
+      "position_id": "ANAL-001"
     }
   ]
 }
