@@ -5,6 +5,30 @@ This project is an intelligent philosophical conversation application that uses 
 
 ## Recent Changes
 
+### 2025-11-18: Two Philosophy Articles Added to Database
+- Added comprehensive extraction from "Fodor on Concepts: How to be a non-Atomist without being a Holist" (KUC-FODOR-CONCEPTS)
+  - Extracted 15 positions covering:
+    - Terminological distinctions (concept vs concepto)
+    - Anti-atomist thesis: concepts always presuppose other concepts
+    - Case studies: redness, phenomenal experience, sense-perception
+    - Fodor's atomism and three arguments for it
+    - Critique of Fodor's indefinability argument
+    - Analysis showing conceptso have infinite structure, not atomic simplicity
+  - Position IDs: FODOR-001 through FODOR-015
+  
+- Added comprehensive extraction from "Uniquely Individuating Descriptions" (KUC-UID)
+  - Extracted 9 positions covering:
+    - Main thesis: reference and conception require UIDs
+    - Reconciliation of Kripke's direct reference with epistemic descriptivism
+    - Three ways of learning reference: ostension, description, picking up from context
+    - Analysis showing ostensive definition reduces to descriptive knowledge
+    - Causal connections subordinate to UID knowledge
+  - Position IDs: UID-001 through UID-009
+
+- Total new positions: 24
+- Database now contains 1,722 total positions (593 with valid text for semantic search)
+- Regenerated embeddings for semantic search integration
+
 ### 2025-11-18: Economics Article Added to Database
 - Added comprehensive extraction from "The Impossibility of Economics as Predictive Science: Reflexivity, Emergence, and the Equilibrium Fallacy" (KUC-2025-11-REFLEX)
 - Extracted 70 detailed positions covering:

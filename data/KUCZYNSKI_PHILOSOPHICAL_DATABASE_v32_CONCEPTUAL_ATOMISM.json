@@ -20357,6 +20357,222 @@
       "development": "Consider the proposition that you can fit a curve to any dataset with enough parameters. But this does not mean the curve will predict future data. Econometrics produces elegant curve-fitting, not genuine prediction.",
       "domain": "Philosophy of Economics",
       "position_id": "ECON-REFLEX-070"
+    },
+    {
+      "title": "The Term 'Concept' is Ambiguous Between Mental and Non-Mental Senses",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Terminological Section",
+      "thesis": "The word 'concept' can refer to some platonic, non-mental entity, as in 'anything falling under the concept square also falls under the concept closed figure.' But the word 'concept' also has a psychological sense; it can refer to one's grasp of something, as in 'Locke identified concepts with mental images' or 'before 1930, nobody had a concept of a quark'. We need two different words here to avoid intolerable confusion.",
+      "consistency": "This terminological distinction is maintained throughout Kuczynski's work",
+      "development": "To denote concepts in the non-mental sense, use the word 'concepto'. To denote concepts in the psychological sense, simply use the word 'concept' (no subscript). We talk about 'having' concepts and 'grasping' conceptso.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-001"
+    },
+    {
+      "title": "Possession of Any Concept Presupposes Possession of Others",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Introduction",
+      "thesis": "Possession of any one concept presupposes possession of others. To grasp any one thing, one must be able to grasp others. One cannot think about, or mentally represent, a given thing unless one think about others.",
+      "consistency": "This is Kuczynski's fundamental anti-atomist position",
+      "development": "Consider the concepto of a square. Suppose some creature had no idea what it was for a figure to have four sides, or what it was for an edge to be straight. Would that thing have any idea what it was for something to be a square? Intuitively, the answer seems to be 'no'. So to grasp the concepto square, one must grasp the conceptso of the number four, of straightness, of flatness, and so on.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-002"
+    },
+    {
+      "title": "There Are No Atomic Concepts - No Concepts Without Structure",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Introduction",
+      "thesis": "There seem to be no atomic concepts \u2013 no concepts that are not to some degree constituted by other concepts. There seems to be no concept C such that a creature could have C without also having various other concepts. There are no foundational concepts, where a foundational concept is one such that possession of it doesn't presuppose possession of others.",
+      "consistency": "This follows from the previous position about concept possession",
+      "development": "Attempts to find genuinely foundational concepts \u2013 concepts an otherwise conceptless creature can have \u2013 seem to bear no fruit. Our best candidates (e.g. the concepto of what it is for something to be red, the concepto of what it is to have an experience with such and such phenomenology) turn out to bristle with exactly the sort of structure we were hoping they wouldn't have.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-003"
+    },
+    {
+      "title": "Even the Concept of Redness Requires Background Conceptual Structure",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Redness Example",
+      "thesis": "Even a concept of redness \u2013 surely our best candidate for a 'simple' concept, a concept that doesn't presuppose a wealth of other concepts \u2013 is available to only to a creature with a formidable representational endowment.",
+      "consistency": "This refutes naive foundationalism about color concepts",
+      "development": "An object that really is red can be given to a person of good eyesight through very different sorts of phenomenal contents. No matter how 'optimal' or 'standard' the conditions of perception are, there will never be a one-one correspondence between things' actual colors and your phenomenology. A given shade of red will given to you through different phenomenal contents. To see something as having a certain color isn't just to have an experience with a certain phenomenology. The phenomenology has to be appropriately contextualized. And this contextualization seems to presuppose some understanding of the conditions of perception; it thus presupposes an articulated picture of the world.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-004"
+    },
+    {
+      "title": "Color Perception Requires Phenomenological Contextualization",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Artist Example",
+      "thesis": "When you just see, so to speak, that something is red, a wealth of background information is operative. Phenomenology is certainly part of the story, but not all of it. The phenomenology has to be appropriately contextualized.",
+      "consistency": "Any artist knows this principle",
+      "development": "If you want to depict an apple's color as it appears to you from position p1, you use one mix of paint. If you want to depict its color as it appears to you from position p2, you use a different mix of paint. This is the case even in circumstances where the lighting conditions are optimal \u2013 where they are unnaturally good.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-005"
+    },
+    {
+      "title": "Having Phenomenal Experience Differs from Having a Concept of That Experience",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Phenomenal Concepts Section",
+      "thesis": "There is a difference between, on the one hand, being able to have an experience with a certain phenomenology, and on the other hand, having a concept of that sort of experience. Perhaps the ability to have that kind of phenomenal content doesn't require any sort of conceptual background. But that doesn't mean that the same is true of the ability to have a concept of that kind of experience.",
+      "consistency": "This distinction is crucial for understanding conceptual holism",
+      "development": "Having a concept of a certain kind of experience would seem to involve being able to recognize occurrences of states with that sort of phenomenology and also have thoughts about such states. Even though little or no cognitive wherewithal is needed to have the phenomenology, it is hard to believe that the same is true of the ability to recognize the phenomenology for what it is.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-006"
+    },
+    {
+      "title": "Recognition Involves Singling Out and Therefore Comparison",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Recognition Argument",
+      "thesis": "To recognize is to single out. Singling a thing out seems to involve knowing how that thing is different from other things. So, at least on the face of it, recognizing a thing involves having a concept of how thing differs from other things.",
+      "consistency": "This is a key premise in the anti-atomist argument",
+      "development": "Having a concept of a certain kind of phenomenology would seem to involve being able to compare it with other things, and thus to presuppose that one has concepts of those other things. So while the ability to experience a certain kind of phenomenal content may be conceptually innocent, the same appears not to be true of the ability to have concept of that sort of experience.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-007"
+    },
+    {
+      "title": "Sense-Perception Presents States of Affairs, Not Bare Objects",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, External Objects Section",
+      "thesis": "Strictly speaking, what is given to one in sense-perception is never (just) a thing: it is a state of affairs. You don't just see the rock. You see a state of affairs involving the rock: you see an object of a certain shape, color, relative location, and so on.",
+      "consistency": "This is fundamental to understanding perceptual content",
+      "development": "A sense-perception necessarily presents things as having various properties \u2013 as having a certain color, shape, location, state of motion. If a thing is to be represented to you as having a certain color, location, state of motion, and so on, it seems to follow that \u2013 at some level, in some way \u2013 you have cognitive access to these properties: concepts of these properties constitute your representational palette.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-008"
+    },
+    {
+      "title": "Sense-Perception Has Descriptive Structure and Presupposes Access to Properties",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Perceptual Structure",
+      "thesis": "Any sense-perception has a great deal of 'descriptive structure', and also presupposes some kind of cognitive access to a wealth of properties. Since sense-perception is essentially involved in our being able to think about external objects, it would seem to follow that our concepts of such objects are replete with conceptual structure.",
+      "consistency": "This extends the anti-atomist thesis to perception",
+      "development": "We know about external objects entirely through sense-perception. Concepts of properties constitute your representational palette. Therefore our concepts of external objects cannot be atomic.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-009"
+    },
+    {
+      "title": "Fodor's Conceptual Atomism: Grasp of One Thing Presupposes Grasp of Nothing Else",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Fodor's View",
+      "thesis": "Jerry Fodor argues that, with some trivial exceptions, all concepts are atoms. For any concept C, possession of C does not presuppose possession of other concepts. In principle, one could have a concept of knowledge without a concept of belief or truth; of justice without having a concept of sentience; of existence in the external world without having a concept of persistence in space and time or of causality; of Tuesday without having a concept of Monday.",
+      "consistency": "This is the position Kuczynski aims to refute",
+      "development": "For Fodor, one can have a concept of (practically) any one thing without having a concept of anything else. A grasp of (practically) anything presupposes a grasp of nothing. Our concepts are 'atoms'; they are indivisible and ultimate; they cannot (typically) be broken down into other concepts.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-010"
+    },
+    {
+      "title": "Fodor's Two Senses of Conceptual Atomism",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Two Doctrines",
+      "thesis": "Fodor uses 'conceptual atomism' to refer to two distinct doctrines: (i) One's grasp of a given thing does not typically presuppose a grasp of other things. No concept presupposes possession of any other concept. (ii) Conceptso are atoms. They cannot be broken down into other conceptso. Consequently, there are (with some trivial exceptions) no analytic truths.",
+      "consistency": "These two doctrines are intimately related in Fodor's system",
+      "development": "If conceptso have no internal structure, then we can see why a grasp of knowledge wouldn't presuppose a grasp of belief, truth, or justification. Fodor's denial of (i) is connected with his denial of (ii).",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-011"
+    },
+    {
+      "title": "Fodor Admits Only Trivial Analyticities",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Analyticity Section",
+      "thesis": "Fodor grants analytic status to propositions whose truth doesn't turn on anything peculiar to the conceptso occurring therein. Fodor denies analytic status to propositions whose truth does turn on the peculiarities of the conceptso involved. He appears to grant analytic status to propositions that are formally true.",
+      "consistency": "This follows from Fodor's atomism about conceptso",
+      "development": "Consider: 'if x is a red cow, then x is a cow.' The non-logical terms occur inessentially. Suppose you replace 'cow' with 'horse'. The result will be a truth. The truth doesn't turn on anything peculiar to the conceptso red and cow. Since it doesn't turn anything peculiar to those conceptso, it doesn't really tell you anything about them. Fodor grants analytic status to such propositions. But he denies that 'any case of knowledge is a case of true-belief' is analytic.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-012"
+    },
+    {
+      "title": "Fodor's First Argument: Conceptso Are Indefinable Therefore Atomic",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, First Argument",
+      "thesis": "Two thousand years of work have yielded no unexceptionable definitions of 'knowledge', 'justice', or 'number'. Given the apparent indefinability of most conceptso, Fodor infers that they have no structure: they are simples. The idea is that if a concepto is not simple, then it is built out of other things. If it is built out of other things, then there is obviously some true proposition saying how it is built out of those other things: there is a definition or analysis of that concepto.",
+      "consistency": "This is one of Fodor's three arguments for atomism",
+      "development": "Fodor goes through a number of reasonable-seeming definitions of the concepto 'to paint', and shows that they all fail. For example, it might seem that 'to paint' something is just to cover it with paint. But this is not so. If you dip your paint-brush in a paint-bucket, you are not painting your brush, even though you are covering it with paint.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-013"
+    },
+    {
+      "title": "Fodor's First Argument Commits a Non-Sequitur: Indefinability Shows Infinite Structure Not Atomicity",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Evaluating First Argument",
+      "thesis": "Given his premises, what Fodor should have concluded is that conceptso have an infinite amount of internal structure. Fodor has made a case that it is hard to give conceptuallyo necessary and sufficient conditions for a thing's falling under a concepto. But for practically any concepto, it is extremely easy to give conceptuallyo necessary conditions.",
+      "consistency": "This is Kuczynski's refutation of Fodor's first argument",
+      "development": "For x to be an act of painting, it is conceptuallyo necessary that x be an act of putting paint on something. This by itself shows that there is an internal or constitutive relation between 'Bob painted y' and 'Bob put paint on y' and, therefore, that the concepto 'to paint' has conceptual structure \u2013 is not an atom. Each of Fodor's attempted definitions gives a necessary condition for x's being an act of painting. The evidence suggests that we can generate ad infinitum conceptuallyo necessary conditions for something's being an act of painting. So given that necessary conditions indicate conceptual structure, it follows that paint has an infinite amount of conceptualo structure.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-014"
+    },
+    {
+      "title": "Knowledge Has Infinite Analytic Structure Given Gettier Literature",
+      "source": "KUC-FODOR-CONCEPTS: Fodor on Concepts, Knowledge Example",
+      "thesis": "It is easy to generate conceptually necessary conditions for x's falling under the concepto knowledge. Gettierologists have generated countless such conditions, not to mention the ones that have always been known: x must be true and justified and a belief. So it seems possible to generate conceptuallyo necessary conditions ad infinitum for x's being a case of knowledge. If that is right, then the concepto knowledge has an infinite amount of analytic structure, contrary to what Fodor says.",
+      "consistency": "This applies the general refutation to a specific case",
+      "development": "If Gettierologists eventually produce a correct analysis of knowledge, then Fodor is wrong to say that the concepto knowledge has no analytic structure. But even if they never produce necessary and sufficient conditions, they can produce endless necessary conditions, which shows the concepto has structure.",
+      "domain": "Philosophy of Mind",
+      "position_id": "FODOR-015"
+    },
+    {
+      "title": "Reference and Conception Require Knowledge of Uniquely Individuating Descriptions",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Main Thesis",
+      "thesis": "In order to refer to an object, one does have to know of some description that singles it out: one has to have knowledge of the right kind of uniquely individuating description. In order to think about an object, one does have to know of some description that singles it out. Without knowledge of a uniquely individuating description, there is no reference and there is no conception.",
+      "consistency": "This is Kuczynski's central thesis against naive causal theories",
+      "development": "In many cases, the ability to refer to, or think about, an object does involve one's being causally connected to the object. But the causal connection, though essential, nonetheless has a subordinate role: it facilitates conception and reference by way of being an indispensable part of one's knowledge of a uniquely individuating description.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-001"
+    },
+    {
+      "title": "Direct Reference Theory is Correct But Does Not Eliminate Need for UIDs",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Methodology",
+      "thesis": "Direct reference theory is correct \u2013 the sole semantic value of 'Socrates' is Socrates. But semantics is not epistemology. Given only that 'Socrates' is a label, and not a description, it does not follow that I can think about Socrates without knowing a description that singles him out.",
+      "consistency": "This reconciles Kripke's semantics with epistemic descriptivism",
+      "development": "Thinking about Socrates does require knowledge of a uniquely individuating description. Indeed, being able to refer to Socrates requires knowledge of such a description \u2013 notwithstanding that 'Socrates' itself has no descriptive content at all.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-002"
+    },
+    {
+      "title": "Kripke Demolished the View That Proper Names Are Synonymous With Descriptions",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Kripke Summary",
+      "thesis": "'Socrates' is not synonymous with any definite description. Given any description D, one can understand '\u2026Socrates\u2026' without knowing that D applies to the referent of 'Socrates'. Consider any description of Socrates that applies to him uniquely. One can understand sentences of the form '\u2026Socrates\u2026' without knowing that the referent of 'Socrates' satisfies that description.",
+      "consistency": "This is a correct summary of Kripke's semantic achievement",
+      "development": "One can understand 'Socrates was wise' without knowing that 'Socrates' picks out the greatest philosopher to have died of hemlock-poisoning, or the person who figures as the protagonist in most of the platonic dialogues, or any other definite description.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-003"
+    },
+    {
+      "title": "Kripke's Causal Theory: Reference Fixed by Causal Chains",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Causal Theory",
+      "thesis": "'Socrates' refers to Socrates because a certain kind of causal relation holds between tokens of 'Socrates' and Socrates himself (or, more exactly, states of affairs involving Socrates). When I say 'Socrates', my words refer to Socrates because they are causally connected to him in a certain way.",
+      "consistency": "This is the causal-historical theory of reference",
+      "development": "Somebody saw Socrates. Socrates' presence caused that person to have certain visual experiences. That person gave a name to Socrates and was able to pass that name along to people who did not themselves perceive Socrates. The process is repeated over and over. When I produce instances of the sound-type 'Socrates', my words refer back to Socrates precisely because I am connected to Socrates by way of such a chain.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-004"
+    },
+    {
+      "title": "Three Ways a Proper Name Can Enter One's Lexicon",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Three Methods",
+      "thesis": "There seem to be three ways that a proper name N can be inducted into one's lexicon: (i) One can be given an ostensive definition of N; (ii) one can be given a descriptive definition of N; or (iii) one can just 'pick up' the use of N.",
+      "consistency": "These categories cover the apparent range of name acquisition",
+      "development": "How do you learn what a given word refers to? Ultimately, there are two basic ways: by description and by ostension. But there also appears to be a third way where you simply hear others using a name and appropriate it into your own lexicon without explicit definition.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-005"
+    },
+    {
+      "title": "Ostensive Definition Works Through Knowledge of Uniquely Individuating Descriptions",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Ostension Analysis",
+      "thesis": "Ostensive definitions work by way of knowledge of uniquely individuating descriptions. When ostensive definition works, you know that there is some individual x such that x uniquely has certain properties (he is uniquely a person that I am seeing on this particular occasion behaving in a certain way, dressed in certain clothes, and so on), and you know that the name refers to x.",
+      "consistency": "This shows ostension reduces to a kind of descriptive knowledge",
+      "development": "Somebody points to some person O and says: 'that guy is named Fred'. For the definition to work \u2013 for you to learn what 'Fred' refers to \u2013 you must have some way of singling out the person ostended. Picking out a single object involves knowing a uniquely individuating description.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-006"
+    },
+    {
+      "title": "Even With Qualitatively Identical Individuals Ostension Provides a UID",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Extreme Case",
+      "thesis": "Suppose there are thirty numerically different, but qualitatively identical men in a certain place. Your companion Bob goes up to one of them, puts his hand on his shoulder, and says 'this guy is named Fred'. Even though the person just named is qualitatively just like many others, you now know of some description that applies to him and to no one else. You know that: There is some individual x such that x is uniquely a person whom Bob just picked out \u2013 such that x uniquely has the property that Bob just put his hand on his shoulder \u2013 and 'Fred' names x.",
+      "consistency": "This demonstrates that UIDs need not be qualitative in a thick sense",
+      "development": "The description doesn't tell you much about what kind of person Fred is. It doesn't tell you anything about how Fred is psychologically or physically different from other people. But it gives you enough information to cognitively single out Fred. Your knowing what 'Fred' refers to depends essentially on your knowing the truth of some proposition of the form: somebody x uniquely has phi and 'Fred' names x.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-007"
+    },
+    {
+      "title": "Causal Connection Is Component of UID Knowledge, Not Primary",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Causal Role",
+      "thesis": "Your knowing what 'Fred' refers to involves your having some kind of causal connection to Fred. But the causal connection is not the primary thing; the causal connection is a component of something more important. It is a component of your knowledge of a uniquely individuating description.",
+      "consistency": "This subordinates causation to descriptive knowledge",
+      "development": "How is the meaning of 'Fred' given to you? It is given to you ostensively. But, even so, it is, at least in effect, given to you through an existence claim. You know the truth of some claim of the form: there is some x such that x uniquely has phi and 'Fred' refers to x. Your knowing the truth of that claim involves your being causally connected to Fred. But vision is involved in exactly this sense: it enables you to know the truth of an existence claim; sense-perception is involved in the sense it apprises you of the truth of a uniquely individuating description.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-008"
+    },
+    {
+      "title": "Picking Up a Name From Context Provides an Implicit UID",
+      "source": "KUC-UID: Uniquely Individuating Descriptions, Picking Up Names",
+      "thesis": "Merely by virtue of the fact that you overheard Smith and Jones using the word 'Argo', you have been given a definite description that applies to Argo, and you have learned some true proposition of the form: some person x uniquely has phi and 'Argo' refers to x.",
+      "consistency": "This extends the UID requirement to apparently reference-free cases",
+      "development": "Unlike you, Smith is personally acquainted with Argo and knows some true proposition of the form: some person x uniquely has phi and 'Argo' refers to x. In the course of your conversation, you hear Smith make statements like 'Argo was a cad'. On each occasion, there was exactly one person who Smith was referring to. You know this merely by virtue of overhearing Smith's statement. So you pick up knowledge of some claim like: on occasion t, there was exactly one person who Smith described as being a cad, and 'Argo' refers to x. The UID might be thin \u2013 the person Smith was referring to by Argo on occasion t \u2013 but it is a UID nonetheless.",
+      "domain": "Philosophy of Language",
+      "position_id": "UID-009"
     }
   ]
 }
