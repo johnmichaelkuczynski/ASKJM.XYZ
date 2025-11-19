@@ -5,6 +5,17 @@ This project is an intelligent philosophical conversation application that uses 
 
 ## Recent Changes
 
+### 2025-11-19: Secure Internal Knowledge API Endpoint Created
+- Created `/api/internal/knowledge` POST endpoint for external system integration
+- **Authentication**: Requires `ZHI_PRIVATE_KEY` in Authorization header (supports both `Bearer <token>` and direct token)
+- **Input**: JSON body with `query` (required) and `context` (optional)
+- **Output**: JSON response with:
+  - `result`: Formatted text with philosophical positions and KIRE inferences
+  - `metadata`: Structured data including positions array, KIRE inferences, database size, timestamp
+- **Security**: All unauthorized requests return 401 error
+- **Functionality**: Integrates semantic search (top 5 positions) + KIRE deductive reasoning (top 10 rules)
+- **URL Pattern**: `https://askjm.xyz/api/internal/knowledge`
+
 ### 2025-11-18: Two Philosophy Articles Added to Database
 - Added comprehensive extraction from "Fodor on Concepts: How to be a non-Atomist without being a Holist" (KUC-FODOR-CONCEPTS)
   - Extracted 15 positions covering:
@@ -61,6 +72,7 @@ This project is an intelligent philosophical conversation application that uses 
 ## System Architecture
 
 ### Core Functionality
+- **Secure Internal API**: `/api/internal/knowledge` endpoint for external system queries with ZHI_PRIVATE_KEY authentication
 - **Semantic Search**: Indexes philosophical positions using OpenAI embeddings (text-embedding-3-small model) for efficient retrieval.
 - **Streaming AI Responses**: Delivers token-by-token responses from various AI providers.
 - **Multi-AI Provider Support**: Integrates Grok (xAI - default), Anthropic Claude, OpenAI, DeepSeek, and Perplexity, allowing model selection.

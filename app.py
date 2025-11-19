@@ -118,6 +118,115 @@ def get_providers():
         providers.append({'id': 'perplexity', 'name': 'Perplexity', 'models': ['llama-3.1-sonar-large-128k-online', 'llama-3.1-sonar-small-128k-online']})
     return jsonify({'providers': providers})
 
+@app.route('/api/internal/knowledge', methods=['POST'])
+def internal_knowledge():
+    """Secure internal API for knowledge queries - requires ZHI_PRIVATE_KEY authentication"""
+    try:
+        # Authentication: Check Authorization header
+        auth_header = request.headers.get('Authorization', '')
+        
+        # Get the private key from environment
+        zhi_private_key = os.environ.get('ZHI_PRIVATE_KEY', '')
+        
+        if not zhi_private_key:
+            return jsonify({'error': 'Server authentication not configured'}), 500
+        
+        # Check if Authorization header is present and valid
+        # Support both "Bearer <token>" and direct token
+        if auth_header.startswith('Bearer '):
+            provided_key = auth_header[7:]  # Remove "Bearer " prefix
+        else:
+            provided_key = auth_header
+        
+        # Verify authentication
+        if not provided_key or provided_key != zhi_private_key:
+            return jsonify({'error': 'Unauthorized', 'message': 'Invalid or missing authentication key'}), 401
+        
+        # Parse request body
+        data = request.json
+        if not data:
+            return jsonify({'error': 'Invalid request', 'message': 'JSON body required'}), 400
+        
+        query = data.get('query', '')
+        context = data.get('context', '')
+        
+        if not query:
+            return jsonify({'error': 'Invalid request', 'message': 'Query parameter required'}), 400
+        
+        # Search the knowledge base
+        search_results = searcher.search(query, top_k=5)
+        
+        # Run KIRE inference if available
+        kire_results = []
+        if kire:
+            try:
+                fired_rules = kire.deduce(query, max_rules=10)
+                kire_results = [
+                    {
+                        'id': r['id'],
+                        'premise': r['premise'],
+                        'conclusion': r['conclusion'],
+                        'strength': r['strength'],
+                        'domain': r.get('domain', 'Unknown')
+                    }
+                    for r in fired_rules
+                ]
+            except Exception as e:
+                print(f"KIRE error: {e}")
+        
+        # Format search results
+        positions = []
+        for result in search_results:
+            positions.append({
+                'position_id': result.get('position_id', 'UNKNOWN'),
+                'title': result.get('title', ''),
+                'thesis': result.get('thesis', ''),
+                'source': result.get('source', ''),
+                'domain': result.get('domain', ''),
+                'similarity_score': result.get('similarity', 0.0)
+            })
+        
+        # Construct comprehensive result
+        result_text = f"Query: {query}\n\n"
+        
+        if context:
+            result_text += f"Context: {context}\n\n"
+        
+        result_text += "=== RELEVANT PHILOSOPHICAL POSITIONS ===\n\n"
+        
+        for i, pos in enumerate(positions, 1):
+            result_text += f"{i}. [{pos['position_id']}] {pos['title']}\n"
+            result_text += f"   {pos['thesis']}\n"
+            result_text += f"   (Similarity: {pos['similarity_score']:.3f})\n\n"
+        
+        if kire_results:
+            result_text += "\n=== KIRE INFERENCES ===\n\n"
+            for i, rule in enumerate(kire_results, 1):
+                result_text += f"{i}. [{rule['id']}] Strength: {rule['strength']}\n"
+                result_text += f"   If: {rule['premise']}\n"
+                result_text += f"   Then: {rule['conclusion']}\n\n"
+        
+        # Return structured response
+        response = {
+            'result': result_text,
+            'metadata': {
+                'query': query,
+                'context': context,
+                'positions_found': len(positions),
+                'kire_rules_fired': len(kire_results),
+                'positions': positions,
+                'kire_inferences': kire_results,
+                'database_size': len(searcher.positions),
+                'timestamp': __import__('datetime').datetime.now().isoformat()
+            }
+        }
+        
+        return jsonify(response), 200
+        
+    except Exception as e:
+        print(f"Internal knowledge API error: {e}")
+        return jsonify({'error': 'Internal server error', 'message': str(e)}), 500
+
 @app.route('/raw_chain', methods=['POST'])
 def raw_chain():
     """DEBUG ENDPOINT: Show raw KIRE inference chain that fired"""
